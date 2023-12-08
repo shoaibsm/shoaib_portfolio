@@ -17,7 +17,7 @@
 
             .brand-name {
                 .my-name {
-                    color: #00B0EE;
+                    color: var(--brand-color);
                     letter-spacing: 1px;
                     user-select: none;
                     cursor: pointer;
@@ -44,6 +44,7 @@
                         letter-spacing: 1px;
                         cursor: pointer;
                         user-select: none;
+                        transition: color 0.2s ease-in-out, text-shadow 0.2s ease-in-out, border-bottom 0.2s ease-in-out;
 
                     }
 

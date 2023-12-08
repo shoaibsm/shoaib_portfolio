@@ -19,6 +19,7 @@ function Introduction() {
                         <li><FaGithub className='icon' /></li>
                         <li><FaFacebook className='icon' /></li>
                         <li><FaSquareInstagram className='icon' /></li>
+                        {/* To Do - add pintrst twitter youtube*/}
                     </ul>
                 </div>
             </div>
