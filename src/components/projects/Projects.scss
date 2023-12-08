@@ -1,0 +1,138 @@
+.Projects {
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 50px;
+
+    .project-heading {
+        text-align: center;
+        letter-spacing: 1px;
+        margin-bottom: 16px;
+    }
+
+    .project-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 16px;
+
+        .project-box {
+            width: 32%;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 4px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+            &:hover {
+                box-shadow: 1px 1px 20px rgba(33, 37, 40, 0.3);
+                transform: scale(1.005);
+            }
+
+            .img-container {
+                padding: 4px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .project-name {
+                margin-top: 8px;
+
+                // .project-title {}
+            }
+
+            .project-desc {
+                margin-top: 8px;
+
+                p {
+                    margin-top: 2px;
+                }
+            }
+
+            .project-links {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 16px;
+                margin-block: 8px;
+
+                .go-to-project,
+                .got-to-github {
+                    flex: 1;
+                }
+
+                .go-to-project {
+                    display: flex;
+                    align-items: center;
+                    gap: 4px;
+
+                    .icon-box {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding-block: 4px;
+
+                        .icon {
+                            color: #ffffff;
+                        }
+                    }
+
+                    .link {
+
+                        text-decoration: none;
+                        color: #ffffff;
+
+                        p {
+                            font-size: 10px;
+                            color: #ffffff;
+                        }
+                    }
+
+                    .link:hover,
+                    .link:active,
+                    .link:focus {
+                        /* Set the same color as normal state to prevent color change on click */
+                        color: #ffffff;
+                    }
+                }
+
+                .got-to-github {
+                    display: flex;
+                    align-items: center;
+                    gap: 4px;
+
+                    .icon-box {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding-block: 4px;
+
+                        .icon {
+                            color: #ffffff;
+                        }
+
+                    }
+
+                    .link {
+                        text-decoration: none;
+                        color: #000;
+
+                        p {
+                            font-size: 8px;
+                            color: #ffffff;
+                        }
+                    }
+
+                    .link:hover,
+                    .link:active,
+                    .link:focus {
+                        /* Set the same color as normal state to prevent color change on click */
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}

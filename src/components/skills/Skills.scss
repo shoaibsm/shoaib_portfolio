@@ -1,0 +1,190 @@
+.Skills {
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 20px;
+
+    .technical-skills-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+
+        .technical-skills-heading {
+            letter-spacing: 1px;
+        }
+
+        .technical-skills {
+            width: 100%;
+            display: flex;
+            gap: 20px;
+
+            .skill-box {
+                width: 23%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 10px 10px;
+                border-radius: 4px;
+                background-color: var(--background-color);
+                transition: transform 0.3s ease-in-out;
+
+                &::before {
+                    content: "";
+                    width: 100%;
+                    height: 0;
+                    background-color: rgba(0, 0, 0, 0.3);
+                    position: absolute;
+                    bottom: 0; // start from bottom
+                    left: 0;
+                    transition: height 0.3s ease-in-out
+                }
+
+                &:hover {
+                    box-shadow: 1px 1px 20px rgba(33, 37, 40, 0.3);
+                    transform: scale(1.01);
+
+                    &::before {
+                        height: 100%;
+                    }
+                }
+
+                .skill-icon {
+                    font-size: 2rem;
+                }
+
+                .skill-details {
+                    h4 {
+                        letter-spacing: 1px;
+                        padding-block: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .mern-container {
+        width: 100%;
+        padding-block: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+
+        .mern-skills-heading {
+            letter-spacing: 1px;
+        }
+
+        .mern-skills {
+            width: 100%;
+            display: flex;
+            gap: 20px;
+
+            .skill-box {
+                width: 23%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 10px 10px;
+                border-radius: 4px;
+                background-color: var(--background-color);
+                transition: transform 0.3s ease-in-out;
+                position: relative;
+                overflow: hidden;
+
+                &::before {
+                    content: "";
+                    width: 100%;
+                    height: 0;
+                    background-color: rgba(0, 0, 0, 0.3);
+                    position: absolute;
+                    bottom: 0; // start from bottom
+                    left: 0;
+                    transition: height 0.3s ease-in-out
+                }
+
+                &:hover {
+                    box-shadow: 1px 1px 20px rgba(33, 37, 40, 0.3);
+                    transform: scale(1.01);
+
+                    &::before {
+                        height: 100%;
+                    }
+                }
+
+                .skill-icon {
+                    font-size: 2rem;
+                }
+
+                .skill-details {
+                    h4 {
+                        padding-block: 0.5rem;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .coding-skills {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 16px;
+        background-color: var(--background-color);
+        position: relative;
+
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            // display: none;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        &:hover::before {
+            // display: block;
+            opacity: 1;
+        }
+
+        .skill-icon {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: 50%;
+                right: 0;
+                width: 0.6px;
+                height: 90%;
+                background-color: #495057;
+                filter: blur(0.5px);
+                // transform: translateY(-50%);
+                transform: translate(-50%, -50%);
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+            }
+
+            img {
+                width: 50px;
+                height: 50px;
+            }
+
+            .icon {
+                font-size: 2.5rem;
+            }
+        }
+    }
+}

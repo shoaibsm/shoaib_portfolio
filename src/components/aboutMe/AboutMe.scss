@@ -1,0 +1,28 @@
+.AboutMe {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 20px;
+
+    .about-me-heading {
+        letter-spacing: 1px;
+    }
+
+    .about-me-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+
+        .about-me-details {
+            text-align: left;
+
+            .about-me-text {
+                line-height: 20px;
+                margin-bottom: 0.5rem;
+            }
+        }
+
+
+    }
+}
