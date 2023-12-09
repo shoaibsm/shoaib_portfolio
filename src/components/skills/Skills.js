@@ -21,7 +21,7 @@ function Skills() {
             <div className="technical-skills-container">
                 <h2 className='technical-skills-heading'>Technical Skills</h2>
                 <div className="technical-skills">
-                    <div className="html-skills skill-box">
+                    <div className="skill-box">
                         <SiHtml5 className='skill-icon icon' />
                         <div className="skill-details">
                             <h4>HTML</h4>
@@ -32,7 +32,7 @@ function Skills() {
                             </p>
                         </div>
                     </div>
-                    <div className="css-skills skill-box">
+                    <div className="skill-box">
                         <IoLogoCss3 className='skill-icon icon' />
                         <div className="skill-details">
                             <h4>CSS</h4>
@@ -41,7 +41,7 @@ function Skills() {
                             </p>
                         </div>
                     </div>
-                    <div className="scss-skills skill-box">
+                    <div className="skill-box">
                         <FaSass className='skill-icon icon' />
                         <div className="skill-details">
                             <h4>SASS</h4>
@@ -50,7 +50,7 @@ function Skills() {
                             </p>
                         </div>
                     </div>
-                    <div className="js-skills skill-box">
+                    <div className="skill-box">
                         <RiJavascriptFill className='skill-icon icon' />
                         <div className="skill-details">
                             <h4>Java Script</h4>
@@ -62,46 +62,47 @@ function Skills() {
                 </div>
             </div>
 
-            <div className="mern-container">
-                <h2 className='mern-skills-heading'>MERN Stack </h2>
-                <div className="mern-skills">
-                    <div className="mongo-db skill-box">
+            <div className="technical-skills-container">
+                <h2 className='technical-skills-heading'>MERN Stack</h2>
+                <div className="technical-skills">
+                    <div className="skill-box">
                         <DiMongodb className='skill-icon icon' />
                         <div className="skill-details">
                             <h4>Mongo db</h4>
-                            <p>I am adept at working with MongoDB, a NoSQL database, to efficiently store and manage data for web applications. My skills include designing robust database schemas, performing CRUD operations, and ensuring data integrity. MongoDB's flexibility and scalability are harnessed to create dynamic and responsive applications.</p>
+                            <p>
+                                I am adept at working with MongoDB, a NoSQL database, to efficiently store and manage data for web applications. My skills include designing robust database schemas, performing CRUD operations, and ensuring data integrity. MongoDB's flexibility and scalability are harnessed to create dynamic and responsive applications.
+                            </p>
                         </div>
                     </div>
-                    <div className="express skill-box">
+                    <div className="skill-box">
                         <SiExpress className='skill-icon icon' />
                         <div className="skill-details">
                             <h4>Express</h4>
-                            <p>Experienced in using Express.js, a powerful Node.js framework, I build server-side applications with ease. My proficiency lies in creating RESTful APIs, handling middleware, and establishing a structured project architecture. Express.js enables me to develop scalable and performant backends for seamless application functionality.</p>
+                            <p>
+                                Experienced in using Express.js, a powerful Node.js framework, I build server-side applications with ease. My proficiency lies in creating RESTful APIs, handling middleware, and establishing a structured project architecture. Express.js enables me to develop scalable and performant backends for seamless application functionality.
+                            </p>
                         </div>
                     </div>
-                    <div className="react skill-box">
+                    <div className="skill-box">
                         <FaReact className='skill-icon icon' />
                         <div className="skill-details">
                             <h4>React</h4>
-                            <p>As a skilled React.js developer, I specialize in building dynamic and interactive user interfaces. I leverage React's component-based architecture to create reusable UI elements, ensuring a modular and maintainable codebase. My expertise extends to state management, virtual DOM manipulation, and integrating third-party libraries for enhanced functionality.</p>
+                            <p>
+                                As a skilled React.js developer, I specialize in building dynamic and interactive user interfaces. I leverage React's component-based architecture to create reusable UI elements, ensuring a modular and maintainable codebase. My expertise extends to state management, virtual DOM manipulation, and integrating third-party libraries for enhanced functionality.
+                            </p>
                         </div>
                     </div>
-                    <div className="nodejs skill-box">
+                    <div className="skill-box">
                         <FaNodeJs className='skill-icon icon' />
                         <div className="skill-details">
                             <h4>Node JS</h4>
-                            <p>Proficient in Node.js, I develop server-side applications that are fast, scalable, and efficient. My expertise includes setting up server environments, handling asynchronous tasks, and building RESTful APIs. Node.js enables me to create real-time applications and effectively manage server-side logic for a smooth user experience.
-
-
-
-
-
+                            <p>
+                                Proficient in Node.js, I develop server-side applications that are fast, scalable, and efficient. My expertise includes setting up server environments, handling asynchronous tasks, and building RESTful APIs. Node.js enables me to create real-time applications and effectively manage server-side logic for a smooth user experience.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div className="coding-skills">
                 <div className="skill-icon">
                     <img src={fullStackDeveloper} alt="Full Stack Web Developer" />

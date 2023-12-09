@@ -56,32 +56,34 @@ function ContactInfo() {
                     </div>
                     <div className="social-connect">
                         <div className="about-me">
-                            <h4 className='about-me-heading'>About Me </h4>
-                            <p className='about-me-text'>I am a passionate MERN (MongoDB, Express.js, React, Node.js) stack developer with a keen eye for detail and a love for creating seamless and dynamic web applications. </p>
-                            <div className="social-media">
-                                <ul>
-                                    <li >
-                                        <div className="icon-box">
-                                            <IoLogoLinkedin className='icon' />
-                                        </div>
-                                    </li>
-                                    <li >
-                                        <div className="icon-box">
-                                            <FaGithub className='icon' />
-                                        </div>
-                                    </li>
-                                    <li >
-                                        <div className="icon-box">
-                                            <FaFacebook className='icon' />
-                                        </div>
-                                    </li>
-                                    <li >
-                                        <div className="icon-box">
-                                            <FaSquareInstagram className='icon' />
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
+                            <Link to="about" smooth={true} duration={500}><h4 className='about-me-heading'>
+                                About Me </h4>
+                                <p className='about-me-text'>I am a passionate MERN (MongoDB, Express.js, React, Node.js) stack developer with a keen eye for detail and a love for creating seamless and dynamic web applications. </p>
+                            </Link>
+                        </div>
+                        <div className="social-media">
+                            <ul>
+                                <li >
+                                    <div className="icon-box">
+                                        <IoLogoLinkedin className='icon' />
+                                    </div>
+                                </li>
+                                <li >
+                                    <div className="icon-box">
+                                        <FaGithub className='icon' />
+                                    </div>
+                                </li>
+                                <li >
+                                    <div className="icon-box">
+                                        <FaFacebook className='icon' />
+                                    </div>
+                                </li>
+                                <li >
+                                    <div className="icon-box">
+                                        <FaSquareInstagram className='icon' />
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>

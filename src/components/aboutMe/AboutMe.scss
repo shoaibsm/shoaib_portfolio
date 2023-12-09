@@ -17,10 +17,14 @@
         .about-me-details {
             text-align: left;
 
-            .about-me-text {
-                line-height: 20px;
-                margin-bottom: 0.5rem;
+            p {
+                padding-bottom: 8px;
             }
+
+            // .about-me-text {
+            //     line-height: 20px;
+            //     margin-bottom: 0.5rem;
+            // }
         }
 
 

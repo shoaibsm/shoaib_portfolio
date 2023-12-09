@@ -35,9 +35,13 @@
             }
 
             .job-title {
+                width: 40%;
+                padding: 8px;
                 display: flex;
                 align-items: center;
                 gap: 8px;
+                background: linear-gradient(to right, rgba(108, 117, 125, .1), transparent 60%);
+                margin-left: 16px;
 
                 .job-title-icon {
                     display: flex;
@@ -45,7 +49,9 @@
                     justify-content: center;
                 }
 
-                // .job-profile {}
+                .job-profile {
+                    font-weight: 600;
+                }
             }
 
             .job-summary {
@@ -53,6 +59,7 @@
             }
 
             .job-desc-heading {
+                margin-left: 16px;
                 font-weight: bold;
             }
 
@@ -72,7 +79,6 @@
 
         .horizontal-roll {
             width: 80%;
-            // margin-inline: auto;
             margin: 8px auto;
 
         }

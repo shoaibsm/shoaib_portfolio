@@ -31,6 +31,7 @@
                     color: #ffffff;
                     cursor: pointer;
                     user-select: none;
+                    transition: color 0.2s ease-in-out, text-shadow 0.2s ease-in-out;
 
                     &:hover {
                         color: var(--brand-color);
@@ -89,9 +90,7 @@
         .contact-section {
             width: 50%;
             display: flex;
-            // align-self: flex-end;
             align-items: center;
-            // justify-content: end;
             gap: 100px;
 
             .address-section {
@@ -150,6 +149,7 @@
                 width: 32%;
 
                 .about-me {
+                    cursor: pointer;
 
                     .about-me-heading {
                         letter-spacing: 1px;
@@ -163,37 +163,38 @@
                         margin-top: 8px;
                     }
 
-                    .social-media {
-                        margin-top: 16px;
+                }
 
-                        ul {
-                            list-style: none;
-                            display: flex;
-                            align-items: center;
-                            gap: 16px;
+                .social-media {
+                    margin-top: 16px;
 
-                            li {
+                    ul {
+                        list-style: none;
+                        display: flex;
+                        align-items: center;
+                        gap: 16px;
 
-                                .icon-box {
-                                    display: flex;
-                                    align-items: center;
-                                    justify-content: center;
-                                    width: 35px;
-                                    height: 35px;
-                                    border-radius: 50%;
-                                    background-color: #6C757D;
-                                    cursor: pointer;
-                                    transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+                        li {
 
-                                    &:hover {
-                                        background-color: #495057;
-                                        box-shadow: 2px 2px 20px 1px rgba(255, 255, 255, 0.45);
-                                    }
+                            .icon-box {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 35px;
+                                height: 35px;
+                                border-radius: 50%;
+                                background-color: #6C757D;
+                                cursor: pointer;
+                                transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
 
-                                    .icon {
-                                        color: #ffffff;
-                                        font-size: 1.2rem;
-                                    }
+                                &:hover {
+                                    background-color: #495057;
+                                    box-shadow: 2px 2px 20px 1px rgba(255, 255, 255, 0.45);
+                                }
+
+                                .icon {
+                                    color: #ffffff;
+                                    font-size: 1.2rem;
                                 }
                             }
                         }
