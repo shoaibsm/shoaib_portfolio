@@ -81,7 +81,6 @@ function Experience() {
                         In-Building Solutions (IBS) Engineer with a background in telecommunications, specializing in designing and implementing wireless communication systems within various structures. Experienced in deploying distributed antenna systems (DAS), small cells, and repeaters to optimize coverage and capacity. Proven ability to troubleshoot and maintain in-building networks, ensuring seamless integration with outdoor cellular systems. Adept at meeting connectivity demands in diverse environments.
                     </p>
                 </div>
-
             </div>
         </div>
     )

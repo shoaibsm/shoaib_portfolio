@@ -14,7 +14,6 @@ import { IoLogoCss3 } from 'react-icons/io5';
 import { RiJavascriptFill } from "react-icons/ri";
 import { FaSass } from "react-icons/fa";
 
-
 function Skills() {
     return (
         <div className='Skills'>

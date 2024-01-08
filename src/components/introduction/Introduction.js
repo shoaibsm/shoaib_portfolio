@@ -15,11 +15,26 @@ function Introduction() {
                 <p className="role">MERN Stack Developer</p>
                 <div className="social-media">
                     <ul>
-                        <li><IoLogoLinkedin className='icon' /></li>
-                        <li><FaGithub className='icon' /></li>
-                        <li><FaFacebook className='icon' /></li>
-                        <li><FaSquareInstagram className='icon' /></li>
-                        {/* To Do - add pintrst twitter youtube*/}
+                        <li>
+                            <a href="https://www.linkedin.com/in/shoaib-mohammed95/" target="_blank" rel="noopener noreferrer">
+                                <IoLogoLinkedin className='icon' />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/shoaibsm" target="_blank" rel="noopener noreferrer">
+                                <FaGithub className='icon' />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/shoaib.mohammed.71271" target="_blank" rel="noopener noreferrer">
+                                <FaFacebook className='icon' />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                                <FaSquareInstagram className='icon' />
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

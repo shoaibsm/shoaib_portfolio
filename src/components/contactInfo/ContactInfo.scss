@@ -7,195 +7,158 @@
     position: absolute;
     left: 0;
 
-    .navigation {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 16px;
+    .contactInfo-wrap {
+        margin-inline: auto;
+        width: 75%;
 
-        .nav-links {
-            padding: 8px;
-            width: fit-content;
-            border-bottom: 1px solid var(--border-color);
+        .navigation {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
 
-            ul {
-                list-style: none;
+            .nav-links {
+                padding: 8px;
+                width: fit-content;
+                border-bottom: 1px solid var(--border-color);
+
+                ul {
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    column-gap: 20px;
+
+                    li {
+                        letter-spacing: 1px;
+                        color: var(--background-color);
+                        cursor: pointer;
+                        user-select: none;
+                        transition: color 0.3s ease-in-out, text-shadow 0.2s ease-in-out;
+
+                        &:hover {
+                            color: var(--brand-color);
+                            text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-section {
+            display: flex;
+            justify-content: center;
+
+            .contact-section {
+                width: 100%;
                 display: flex;
                 align-items: center;
-                justify-content: center;
-                column-gap: 20px;
+                justify-content: space-around;
+                gap: 100px;
 
-                li {
-                    letter-spacing: 1px;
-                    color: #ffffff;
-                    cursor: pointer;
-                    user-select: none;
-                    transition: color 0.2s ease-in-out, text-shadow 0.2s ease-in-out;
-
-                    &:hover {
-                        color: var(--brand-color);
-                        text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
-                    }
-                }
-            }
-        }
-    }
-
-    .footer-section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        .brand-section {
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 8px;
-            width: 34%;
-
-            .profile-img-container {
-
-                .profile-img {
-                    width: 100px;
-                    height: 100px;
-                    border-radius: 50%;
-
-                    img {
-                        width: 100%;
-                        height: 100%;
-                        border-radius: 50%;
-                    }
-                }
-            }
-
-            .brand-name {
-                margin-bottom: 8px;
-
-                .name {
-                    cursor: pointer;
-                    letter-spacing: 1px;
-                    color: var(--brand-color);
-                }
-
-                .role {
-                    letter-spacing: 1px;
-                    color: #ffffff;
-                    font-weight: bold;
-                }
-            }
-        }
-
-        .contact-section {
-            width: 50%;
-            display: flex;
-            align-items: center;
-            gap: 100px;
-
-            .address-section {
-                width: 30%;
-
-                .address {
-                    display: flex;
-                    align-items: center;
-                    gap: 8px;
-                    margin-bottom: 8px;
-                    padding-block: 4px;
-
-                    .icon {
-                        color: #ffffff;
-                    }
-
-                    p {
-                        color: #ffffff;
-                    }
-                }
-
-                .phone-number {
-                    display: flex;
-                    align-items: center;
-                    gap: 8px;
-                    margin-bottom: 8px;
-                    padding-block: 4px;
-
-                    .icon {
-                        color: #ffffff;
-                    }
-
-                    p {
-                        color: #ffffff;
-                    }
-                }
-
-                .email {
-                    display: flex;
-                    align-items: center;
-                    gap: 8px;
-                    padding-block: 4px;
-
-                    .icon {
-                        color: #ffffff;
-                    }
-
-                    p {
-                        color: #ffffff;
-                    }
-                }
-            }
-
-            .social-connect {
-                flex: 2;
-                width: 32%;
-
-                .about-me {
-                    cursor: pointer;
-
-                    .about-me-heading {
-                        letter-spacing: 1px;
-                        color: #ffffff;
-                        margin-bottom: 8px;
-                    }
-
-                    .about-me-text {
-                        color: #ffffff;
-                        line-height: 20px;
-                        margin-top: 8px;
-                    }
-
-                }
-
-                .social-media {
-                    margin-top: 16px;
+                .contactInfo {
+                    flex: 1;
 
                     ul {
                         list-style: none;
                         display: flex;
-                        align-items: center;
-                        gap: 16px;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        row-gap: 16px;
 
                         li {
+                            display: flex;
+                            column-gap: 10px;
+                            cursor: pointer;
 
-                            .icon-box {
+                            a {
                                 display: flex;
-                                align-items: center;
-                                justify-content: center;
+                                column-gap: 10px;
+                                text-decoration: none;
+
+                                .icon {
+                                    color: var(--background-color);
+                                    transition: 0.3s ease-in-out;
+                                }
+
+                                p {
+                                    color: var(--background-color);
+                                    transition: 0.3s ease-in-out;
+                                }
+                            }
+
+                            &:hover {
+                                .icon {
+                                    color: var(--brand-color);
+                                }
+
+                                p {
+                                    color: var(--brand-color);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .social-connect {
+                    flex: 2;
+                    width: 32%;
+
+                    .about-me {
+                        cursor: pointer;
+
+                        .about-me-heading {
+                            letter-spacing: 1px;
+                            color: #ffffff;
+                            margin-bottom: 8px;
+                        }
+
+                        .about-me-text {
+                            color: #ffffff;
+                            line-height: 20px;
+                            margin-top: 8px;
+                        }
+                    }
+
+                    .social-media {
+                        margin-top: 16px;
+
+                        ul {
+                            list-style: none;
+                            display: flex;
+                            align-items: center;
+                            gap: 1rem;
+
+                            li {
                                 width: 35px;
                                 height: 35px;
                                 border-radius: 50%;
-                                background-color: #6C757D;
+                                background-color: #495057;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
                                 cursor: pointer;
-                                transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+                                // transition: 0.3s ease-in-out;
+
+                                transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+                                a {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    .icon {
+                                        color: #ffffff;
+                                        font-size: 1.2rem;
+                                    }
+                                }
 
                                 &:hover {
-                                    background-color: #495057;
-                                    box-shadow: 2px 2px 20px 1px rgba(255, 255, 255, 0.45);
+                                    background-color: #6C757D;
+                                    box-shadow: 2px 2px 20px 1px rgba(108, 117, 125, 0.6);
                                 }
 
-                                .icon {
-                                    color: #ffffff;
-                                    font-size: 1.2rem;
-                                }
                             }
                         }
                     }

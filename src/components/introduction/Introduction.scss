@@ -10,15 +10,33 @@
     .my-details {
         .greeting {
             letter-spacing: 1px;
+            user-select: none;
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+                color: var(--brand-color);
+            }
         }
 
         .name {
             padding-top: 0.2rem;
+            user-select: none;
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+                color: var(--brand-color);
+            }
         }
 
         .role {
             letter-spacing: 1px;
             font-weight: bold;
+            user-select: none;
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+                color: var(--brand-color);
+            }
         }
 
         .social-media {
@@ -42,9 +60,15 @@
 
                     transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
 
-                    .icon {
-                        color: #ffffff;
-                        font-size: 1.2rem;
+                    a {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        .icon {
+                            color: #ffffff;
+                            font-size: 1.2rem;
+                        }
                     }
 
                     &:hover {
