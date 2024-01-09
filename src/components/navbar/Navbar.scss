@@ -1,7 +1,7 @@
 .Navbar {
     width: 100vw;
     background-color: var(--primary-color);
-    padding-inline: 3rem;
+    padding-inline: 20px;
     position: fixed;
     left: 0;
     z-index: 1000;
@@ -10,13 +10,15 @@
         width: 100%;
         display: flex;
         align-items: center;
-        padding-block: 0.5rem;
+        padding-block: 8px;
+        position: relative;
 
         .brand-section {
             width: 50%;
 
             .brand-name {
                 .my-name {
+                    font-size: 1rem;
                     color: var(--background-color);
                     letter-spacing: 1px;
                     user-select: none;
@@ -62,6 +64,10 @@
             }
         }
 
+        .navigation-section-close {
+            display: none;
+        }
+
         .cv-btn {
             padding: 7px 15px;
             background-color: var(--background-color);
@@ -83,19 +89,53 @@
                 letter-spacing: 1px;
                 color: var(--text-color);
             }
+
+        }
+
+        .toggler {
+            color: var(--background-color);
+            padding: 8px;
+            cursor: pointer;
+            position: absolute;
+            top: 2px;
+            right: 0;
+            display: none;
+            z-index: 1000;
         }
     }
 
     @media only screen and (max-width: 576px) {
 
-        // .resume-box {
-        //     width: 100%;
-        //     flex-direction: column;
-        // }
+        .container {
+            flex-direction: column;
+            justify-content: center;
 
-        // .Footer {
-        //     display: block;
-        // }
+            .brand-section {
+                align-self: flex-start;
+            }
+
+            .navigation-section {
+
+                justify-content: center;
+
+                .navigation-container {
+                    margin-top: 8px;
+
+                    ul {
+                        flex-direction: column;
+                        row-gap: 10px;
+                    }
+                }
+
+                .cv-btn {
+                    display: none;
+                }
+            }
+
+            .toggler {
+                display: block;
+            }
+        }
 
     }
 }

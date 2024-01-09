@@ -166,4 +166,29 @@
             }
         }
     }
+
+    @media only screen and (max-width: 576px) {
+
+        .contactInfo-wrap {
+            width: 100%;
+
+            .footer-section {
+                .contact-section {
+                    flex-direction: column;
+                    row-gap: 20px;
+
+                    .social-connect {
+                        width: 100%;
+                    }
+
+                    .social-media {
+                        ul {
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
 }

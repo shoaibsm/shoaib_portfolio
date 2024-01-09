@@ -130,4 +130,17 @@
             }
         }
     }
+
+    @media only screen and (max-width: 576px) {
+        .technical-skills-container {
+            .technical-skills {
+                flex-direction: column;
+
+                .skill-box {
+                    width: 100%;
+                }
+
+            }
+        }
+    }
 }

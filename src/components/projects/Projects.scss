@@ -39,8 +39,6 @@
 
             .project-name {
                 margin-top: 8px;
-
-                // .project-title {}
             }
 
             .project-desc {
@@ -98,7 +96,7 @@
                     }
                 }
 
-                .got-to-github {
+                .go-to-github {
                     display: flex;
                     align-items: center;
                     gap: 4px;
@@ -132,6 +130,17 @@
                         color: #000;
                     }
                 }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+
+        .project-container {
+            flex-direction: column;
+
+            .project-box {
+                width: 100%;
             }
         }
     }

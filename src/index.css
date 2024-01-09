@@ -76,7 +76,7 @@ h4,
 h5,
 h6 {
 	color: var(--text-color);
-	/* font-weight: normal; */
+	font-weight: normal;
 }
 
 hr {

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Introduction.scss'
-import profileImg from '../../assets/shoaib_img_2.jpg'
+import profileImg from '../../assets/shoaib_02.jpg'
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
@@ -38,8 +38,8 @@ function Introduction() {
                     </ul>
                 </div>
             </div>
-            <div className="my-photo">
-                <img src={profileImg} alt="Shoaib Mohammed" />
+            <div className="profile-img-box">
+                <img className='profile-img' src={profileImg} alt="Shoaib Mohammed" />
             </div>
         </div>
     )

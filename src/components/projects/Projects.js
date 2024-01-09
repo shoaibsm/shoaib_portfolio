@@ -56,7 +56,7 @@ function Projects() {
                             </div>
                             <Link className='link'><p>Website</p></Link>
                         </div>
-                        <div className="got-to-github btn-primary">
+                        <div className="go-to-github btn-primary">
                             <div className="icon-box">
                                 <FaGithub className='icon' />
                             </div>
@@ -83,7 +83,7 @@ function Projects() {
                             </div>
                             <Link className='link'><p>Website</p></Link>
                         </div>
-                        <div className="got-to-github btn-primary">
+                        <div className="go-to-github btn-primary">
                             <div className="icon-box">
                                 <FaGithub className='icon' />
                             </div>
@@ -110,7 +110,7 @@ function Projects() {
                             </div>
                             <Link className='link'><p>Website</p></Link>
                         </div>
-                        <div className="got-to-github btn-primary">
+                        <div className="go-to-github btn-primary">
                             <div className="icon-box">
                                 <FaGithub className='icon' />
                             </div>
@@ -137,7 +137,7 @@ function Projects() {
                             </div>
                             <Link className='link'><p>Website</p></Link>
                         </div>
-                        <div className="got-to-github btn-primary">
+                        <div className="go-to-github btn-primary">
                             <div className="icon-box">
                                 <FaGithub className='icon' />
                             </div>
@@ -164,7 +164,7 @@ function Projects() {
                             </div>
                             <Link className='link'><p>Website</p></Link>
                         </div>
-                        <div className="got-to-github btn-primary">
+                        <div className="go-to-github btn-primary">
                             <div className="icon-box">
                                 <FaGithub className='icon' />
                             </div>
@@ -191,7 +191,7 @@ function Projects() {
                             </div>
                             <Link className='link'><p>Website</p></Link>
                         </div>
-                        <div className="got-to-github btn-primary">
+                        <div className="go-to-github btn-primary">
                             <div className="icon-box">
                                 <FaGithub className='icon' />
                             </div>
