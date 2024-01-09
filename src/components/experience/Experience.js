@@ -15,7 +15,6 @@ function Experience() {
                         </div>
                         <h3 className='company-name'>Cablesmith</h3>
                     </div>
-
                     <div className='job-title'>
                         <div className="job-title-icon">
                             <BsFillBriefcaseFill className='icon' />

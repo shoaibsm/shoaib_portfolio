@@ -36,7 +36,8 @@ function Navbar() {
                         </Link>
                     </div>
                 </div>
-                <div></div>
+
+                {/* <div></div> */}
 
                 {window.innerWidth <= 576 ? (<div className={isNavOpen ? 'navigation-section' : 'navigation-section-close'}>
                     <div className="navigation-container">

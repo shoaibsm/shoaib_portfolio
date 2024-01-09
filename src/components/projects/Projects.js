@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa";
 function Projects() {
     return (
         <div className='Projects'>
-            <h2 className='project-heading'>Project</h2>
+            <h2 className='project-heading'>Projects</h2>
             <div className="project-container">
                 <div className="project-box">
                     <div className="img-container">
@@ -29,7 +29,7 @@ function Projects() {
                             </div>
                             <Link className='link'><p>Website</p></Link>
                         </div>
-                        <div className="got-to-github btn-primary">
+                        <div className="go-to-github btn-primary">
                             <div className="icon-box">
                                 <FaGithub className='icon' />
                             </div>

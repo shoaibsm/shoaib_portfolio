@@ -7,7 +7,7 @@ function AboutMe() {
         <div className='AboutMe'>
             <h2 className='about-me-heading'>About Me</h2>
             <div className="about-me-container">
-                <div className="my-photo">
+                <div className="profile-img">
                     <img src={profileImg} alt="Shoaib Mohammed" />
                 </div>
                 <div className="about-me-details">
