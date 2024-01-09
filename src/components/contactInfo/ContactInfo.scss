@@ -32,10 +32,13 @@
 
                     li {
                         letter-spacing: 1px;
-                        color: var(--background-color);
                         cursor: pointer;
                         user-select: none;
                         transition: color 0.3s ease-in-out, text-shadow 0.2s ease-in-out;
+
+                        p {
+                            color: var(--background-color);
+                        }
 
                         &:hover {
                             color: var(--brand-color);

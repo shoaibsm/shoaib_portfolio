@@ -16,12 +16,12 @@ function ContactInfo() {
                 <div className="navigation">
                     <div className="nav-links">
                         <ul>
-                            <li><Link to="introduction" smooth={true} duration={500}>Introduction</Link></li>
-                            <li><Link to="about" smooth={true} duration={500}>About Me</Link></li>
-                            <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
-                            <li><Link to="experience" smooth={true} duration={500}>Experience</Link></li>
-                            <li><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
-                            <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
+                            <li><Link to="introduction" smooth={true} duration={500}><p>Introduction</p></Link></li>
+                            <li><Link to="about" smooth={true} duration={500}><p>About Me</p></Link></li>
+                            <li><Link to="skills" smooth={true} duration={500}><p>Skills</p></Link></li>
+                            <li><Link to="experience" smooth={true} duration={500}><p>Experience</p></Link></li>
+                            <li><Link to="projects" smooth={true} duration={500}><p>Projects</p></Link></li>
+                            <li><Link to="contact" smooth={true} duration={500}><p>Contact</p></Link></li>
                         </ul>
                     </div>
                 </div>
