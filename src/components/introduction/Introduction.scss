@@ -14,7 +14,7 @@
             transition: 0.3s ease-in-out;
 
             &:hover {
-                color: var(--brand-color);
+                color: var(--text-white);
             }
         }
 
@@ -68,7 +68,7 @@
                         justify-content: center;
 
                         .icon {
-                            color: #ffffff;
+                            color: var(--text-white);
                             font-size: 1.2rem;
                             transition: color 0.2s ease-in-out
                         }
@@ -109,37 +109,6 @@
                 border-radius: 50%;
             }
         }
-
-        // .container {
-        //     flex-direction: column;
-        //     justify-content: center;
-
-        //     .brand-section {
-        //         align-self: flex-start;
-        //     }
-
-        //     .navigation-section {
-
-        //         justify-content: center;
-
-        //         .navigation-container {
-        //             margin-top: 8px;
-
-        //             ul {
-        //                 flex-direction: column;
-        //                 row-gap: 10px;
-        //             }
-        //         }
-
-        //         .cv-btn {
-        //             display: none;
-        //         }
-        //     }
-
-        //     .toggler {
-        //         display: block;
-        //     }
-        // }
 
     }
 }

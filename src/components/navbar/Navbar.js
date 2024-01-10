@@ -32,7 +32,7 @@ function Navbar() {
                 <div className="brand-section">
                     <div className="brand-name">
                         <Link to="introduction" smooth={true} duration={500}>
-                            <h2 className='my-name'><span>Shoaib</span> Mohammed</h2>
+                            <h2 className='name'><span>Shoaib</span> Mohammed</h2>
                         </Link>
                     </div>
                 </div>

@@ -2,7 +2,8 @@ import React from 'react'
 import './ContactInfo.scss'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import { ImLocation } from 'react-icons/im'
-import { MdEmail } from 'react-icons/md'
+import { MdEmail } from 'react-icons/md';
+import { FaFile } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
@@ -51,6 +52,14 @@ function ContactInfo() {
                                             <MdEmail />
                                         </div>
                                         <p>shoaib.sm6655@gmail.com</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://shoaib-sm-resume.onrender.com/" target="_blank" rel="noopener noreferrer">
+                                        <div className="icon">
+                                            <FaFile />
+                                        </div>
+                                        <p>Shoaib_Mohammed_Resume</p>
                                     </a>
                                 </li>
                             </ul>

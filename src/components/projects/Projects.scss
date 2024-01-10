@@ -7,6 +7,7 @@
         text-align: center;
         letter-spacing: 1px;
         margin-bottom: 16px;
+        user-select: none;
     }
 
     .project-container {
@@ -17,7 +18,7 @@
 
         .project-box {
             width: 32%;
-            background-color: #ffffff;
+            background-color: var(--background-color);
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -39,6 +40,7 @@
 
             .project-name {
                 margin-top: 8px;
+                user-select: none;
             }
 
             .project-desc {
@@ -46,6 +48,7 @@
 
                 p {
                     margin-top: 2px;
+                    user-select: none;
                 }
             }
 
@@ -73,26 +76,40 @@
                         padding-block: 4px;
 
                         .icon {
-                            color: #ffffff;
+                            color: var(--text-white);
+                            user-select: none;
+                            transition: color 0.3s ease-in-out;
                         }
                     }
 
                     .link {
-
                         text-decoration: none;
-                        color: #ffffff;
 
                         p {
                             font-size: 10px;
-                            color: #ffffff;
+                            color: var(--text-white);
+                            transition: color 0.3s ease-in-out;
                         }
                     }
 
-                    .link:hover,
+
                     .link:active,
                     .link:focus {
-                        /* Set the same color as normal state to prevent color change on click */
-                        color: #ffffff;
+                        color: var(--text-white);
+                    }
+
+                    &:hover {
+                        .icon-box {
+                            .icon {
+                                color: var(--brand-color);
+                            }
+                        }
+
+                        .link {
+                            p {
+                                color: var(--brand-color);
+                            }
+                        }
                     }
                 }
 
@@ -108,26 +125,39 @@
                         padding-block: 4px;
 
                         .icon {
-                            color: #ffffff;
+                            color: var(--text-white);
+                            transition: color 0.3s ease-in-out;
                         }
 
                     }
 
                     .link {
                         text-decoration: none;
-                        color: #000;
 
                         p {
                             font-size: 8px;
-                            color: #ffffff;
+                            color: var(--text-white);
+                            transition: color 0.3s ease-in-out;
                         }
                     }
 
-                    .link:hover,
                     .link:active,
                     .link:focus {
-                        /* Set the same color as normal state to prevent color change on click */
-                        color: #000;
+                        color: var(--text-white);
+                    }
+
+                    &:hover {
+                        .icon-box {
+                            .icon {
+                                color: var(--brand-color);
+                            }
+                        }
+
+                        .link {
+                            p {
+                                color: var(--brand-color);
+                            }
+                        }
                     }
                 }
             }

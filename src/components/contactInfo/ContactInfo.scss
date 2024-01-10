@@ -19,7 +19,7 @@
             margin-bottom: 16px;
 
             .nav-links {
-                padding: 8px;
+                padding-block: 8px;
                 width: 100%;
                 border-bottom: 1px solid var(--border-color);
 
@@ -34,7 +34,7 @@
                         cursor: pointer;
 
                         p {
-                            color: var(--background-color);
+                            color: var(--text-white);
                             letter-spacing: 1px;
                             user-select: none;
                             transition: color 0.3s ease-in-out, text-shadow 0.2s ease-in-out;
@@ -82,12 +82,12 @@
                                 text-decoration: none;
 
                                 .icon {
-                                    color: var(--background-color);
+                                    color: var(--text-white);
                                     transition: 0.3s ease-in-out;
                                 }
 
                                 p {
-                                    color: var(--background-color);
+                                    color: var(--text-white);
                                     transition: 0.3s ease-in-out;
                                 }
                             }
@@ -114,12 +114,12 @@
 
                         .about-me-heading {
                             letter-spacing: 1px;
-                            color: #ffffff;
+                            color: var(--text-white);
                             margin-bottom: 8px;
                         }
 
                         .about-me-text {
-                            color: #ffffff;
+                            color: var(--text-white);
                             line-height: 20px;
                             margin-top: 8px;
                         }
@@ -138,12 +138,11 @@
                                 width: 35px;
                                 height: 35px;
                                 border-radius: 50%;
-                                background-color: #495057;
+                                background-color: var(--accent-color);
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
                                 cursor: pointer;
-                                // transition: 0.3s ease-in-out;
 
                                 transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
 
@@ -153,9 +152,9 @@
                                     justify-content: center;
 
                                     .icon {
-                                        color: #ffffff;
-                                        font-size: 1.2rem;
-                                        transition: background-color 0.3s ease-in-out
+                                        color: var(--text-white);
+                                        transition: background-color 0.3s ease-in-out;
+
                                     }
                                 }
 
