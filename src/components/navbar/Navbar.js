@@ -63,7 +63,11 @@ function Navbar() {
                         </ul>
                     </div>
                     <div className="cv-btn">
-                        <p className='btn-tex'>Download CV</p>
+
+                        <a href="https://shoaib-sm-resume.onrender.com/" target="_blank" rel="noopener noreferrer">
+                            <p className='btn-text'>Download CV</p>
+                        </a>
+
                     </div>
                 </div>)}
 
