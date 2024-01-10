@@ -70,8 +70,6 @@
         }
 
         .cv-btn {
-
-            // padding: 7px 15px;
             background-color: var(--background-color);
             border-radius: 15px;
             cursor: pointer;
@@ -101,8 +99,6 @@
                     color: var(--text-color);
                 }
             }
-
-
         }
 
         .toggler {
@@ -120,6 +116,7 @@
     @media only screen and (max-width: 576px) {
 
         .container {
+            width: 100%;
             flex-direction: column;
             justify-content: center;
 
@@ -150,13 +147,5 @@
             }
         }
 
-    }
-
-    @media only screen and (max-width: 576px) {
-        .container {
-            .brand-section {
-                width: 100%;
-            }
-        }
     }
 }

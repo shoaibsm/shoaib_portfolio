@@ -37,8 +37,6 @@ function Navbar() {
                     </div>
                 </div>
 
-                {/* <div></div> */}
-
                 {window.innerWidth <= 576 ? (<div className={isNavOpen ? 'navigation-section' : 'navigation-section-close'}>
                     <div className="navigation-container">
                         <ul>
@@ -63,7 +61,6 @@ function Navbar() {
                         </ul>
                     </div>
                     <div className="cv-btn">
-
                         <a href="https://shoaib-sm-resume.onrender.com/" target="_blank" rel="noopener noreferrer">
                             <p className='btn-text'>Download CV</p>
                         </a>

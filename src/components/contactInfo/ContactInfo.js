@@ -9,6 +9,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { Link } from 'react-scroll';
+import { RiFileDownloadFill } from "react-icons/ri";
 
 function ContactInfo() {
     return (
@@ -66,10 +67,14 @@ function ContactInfo() {
                         </div>
                         <div className="social-connect">
                             <div className="about-me">
-                                <Link to="about" smooth={true} duration={500}><h4 className='about-me-heading'>
+                                {/* <Link to="about" smooth={true} duration={500}><h4 className='about-me-heading'>
                                     About Me </h4>
                                     <p className='about-me-text'>I am a passionate MERN (MongoDB, Express.js, React, Node.js) stack developer with a keen eye for detail and a love for creating seamless and dynamic web applications.</p>
-                                </Link>
+                                </Link> */}
+                                <h4 className='about-me-heading'>
+                                    About Me </h4>
+                                <p className='about-me-text'>I am a passionate MERN (MongoDB, Express.js, React, Node.js) stack developer with a keen eye for detail and a love for creating seamless and dynamic web applications.</p>
+
                             </div>
                             <div className="social-media">
                                 <ul>
@@ -98,6 +103,14 @@ function ContactInfo() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="download-resume">
+                <a href="https://shoaib-sm-resume.onrender.com/" target="_blank" rel="noopener noreferrer">
+                    <div className="download-icon">
+                        <RiFileDownloadFill className='icon' />
+                    </div>
+                    <p>Download Resume</p>
+                </a>
             </div>
         </div>
     )
