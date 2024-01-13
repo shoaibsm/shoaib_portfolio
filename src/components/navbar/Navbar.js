@@ -64,7 +64,6 @@ function Navbar() {
                         <a href="https://shoaib-sm-resume.onrender.com/" target="_blank" rel="noopener noreferrer">
                             <p className='btn-text'>Download CV</p>
                         </a>
-
                     </div>
                 </div>)}
 
