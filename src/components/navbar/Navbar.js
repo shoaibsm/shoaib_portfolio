@@ -28,41 +28,41 @@ function Navbar() {
 
     return (
         <div className='Navbar'>
-            <div className="container" ref={navRef}>
-                <div className="brand-section">
-                    <div className="brand-name">
+            <div className="Navbar__container" ref={navRef}>
+                <div className="Navbar__brandSection">
+                    <div className="Navbar__brandName">
                         <Link to="introduction" smooth={true} duration={500}>
-                            <h2 className='name'><span>Shoaib</span> Mohammed</h2>
+                            <h2 className='Navbar__nameText'><span>Shoaib</span> Mohammed</h2>
                         </Link>
                     </div>
                 </div>
 
                 {window.innerWidth <= 576 ? (<div className={isNavOpen ? 'navigation-section' : 'navigation-section-close'}>
-                    <div className="navigation-container">
-                        <ul>
-                            <li><Link to="about" smooth={true} duration={500}>About Me</Link></li>
-                            <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
-                            <li><Link to="experience" smooth={true} duration={500}>Experience</Link></li>
-                            <li><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
-                            <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
+                    <nav className="navigation-container">
+                        <ul className='Navbar__navList'>
+                            <li className="Navbar__navItems"><Link to="about" smooth={true} duration={500}>About Me</Link></li>
+                            <li className="Navbar__navItems"><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
+                            <li className="Navbar__navItems"><Link to="experience" smooth={true} duration={500}>Experience</Link></li>
+                            <li className="Navbar__navItems"><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
+                            <li className="Navbar__navItems"><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
                         </ul>
-                    </div>
-                    <div className="cv-btn">
-                        <p className='btn-tex'>Download CV</p>
+                    </nav>
+                    <div className="Navbar__btn--browse">
+                        <p className='btn-tex'>Browse CV</p>
                     </div>
                 </div>) : (<div className={'navigation-section'}>
-                    <div className="navigation-container">
-                        <ul>
-                            <li><Link to="about" smooth={true} duration={500}>About Me</Link></li>
-                            <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
-                            <li><Link to="experience" smooth={true} duration={500}>Experience</Link></li>
-                            <li><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
-                            <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
+                    <nav className="navigation-container">
+                        <ul className='Navbar__navList'>
+                            <li className="Navbar__navItems"><Link to="about" smooth={true} duration={500}>About Me</Link></li>
+                            <li className="Navbar__navItems"><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
+                            <li className="Navbar__navItems"><Link to="experience" smooth={true} duration={500}>Experience</Link></li>
+                            <li className="Navbar__navItems"><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
+                            <li className="Navbar__navItems"><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
                         </ul>
-                    </div>
-                    <div className="cv-btn">
+                    </nav>
+                    <div className="Navbar__btn--browse">
                         <a href="https://shoaib-sm-resume.onrender.com/" target="_blank" rel="noopener noreferrer">
-                            <p className='btn-text'>Download CV</p>
+                            <p className='btn-text'>Browse CV</p>
                         </a>
 
                     </div>
