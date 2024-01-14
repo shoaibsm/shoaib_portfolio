@@ -54,15 +54,8 @@
                     &::before {
                         height: 100%;
                     }
-
-                    .Skills__icon {
-                        // color: var(--text-white);
-                        color: var(--brand-color);
-                    }
-
                 }
 
-                // /////////////////////////////////////
                 .Skills__icon {
                     font-size: 2rem;
                     transition: color 0.3s ease-in-out
@@ -158,14 +151,32 @@
 
 
     @media only screen and (max-width: 576px) {
-        .technical-skills-container {
-            .technical-skills {
+        .Skills__container {
+            .Skills__technicalContent {
                 flex-direction: column;
 
-                .skill-box {
+                .Skills__box {
                     width: 100%;
                 }
 
+            }
+        }
+
+        .devProficiency {
+            .devProficiency__box {
+                gap: 4px;
+
+                .devProficiency__iconBox {
+                    padding: 4 8px;
+
+                    &::after {
+                        display: none;
+                    }
+
+                    .devProficiency__icon {
+                        font-size: 2rem;
+                    }
+                }
             }
         }
     }
