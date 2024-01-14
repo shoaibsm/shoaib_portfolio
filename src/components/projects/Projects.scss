@@ -3,22 +3,22 @@
     padding-bottom: 30px;
     padding-top: 50px;
 
-    .project-heading {
+    .Projects__headingText {
         text-align: center;
         letter-spacing: 1px;
         margin-bottom: 16px;
         user-select: none;
     }
 
-    .project-container {
+    .Projects__container {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         row-gap: 16px;
 
-        .project-box {
+        .Projects__content {
             width: 32%;
-            background-color: var(--background-color);
+            background-color: #edf2f4;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -30,95 +30,41 @@
                 transform: scale(1.005);
             }
 
-            .img-container {
+            .Projects__imgContainer {
                 padding: 4px;
 
-                img {
+                .Projects__img {
                     width: 100%;
                 }
             }
 
-            .project-name {
+            .Projects__titleBox {
                 margin-top: 8px;
                 user-select: none;
             }
 
-            .project-desc {
+            .Projects__desc {
                 margin-top: 8px;
 
-                p {
+                .Projects__descText {
                     margin-top: 2px;
                     user-select: none;
                 }
             }
 
-            .project-links {
+            .Projects__navigation {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 gap: 16px;
                 margin-block: 8px;
 
-                .go-to-project,
-                .got-to-github {
-                    flex: 1;
-                }
-
-                .go-to-project {
+                .Projects__btn--open {
                     display: flex;
                     align-items: center;
                     gap: 4px;
 
-                    .icon-box {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        padding-block: 4px;
-
-                        .icon {
-                            color: var(--text-white);
-                            user-select: none;
-                            transition: color 0.3s ease-in-out;
-                        }
-                    }
-
-                    .link {
-                        text-decoration: none;
-
-                        p {
-                            font-size: 10px;
-                            color: var(--text-white);
-                            transition: color 0.3s ease-in-out;
-                        }
-                    }
-
-
-                    .link:active,
-                    .link:focus {
-                        color: var(--text-white);
-                    }
-
-                    &:hover {
-                        .icon-box {
-                            .icon {
-                                color: var(--brand-color);
-                            }
-                        }
-
-                        .link {
-                            p {
-                                color: var(--brand-color);
-                            }
-                        }
-                    }
-                }
-
-                .go-to-github {
-                    display: flex;
-                    align-items: center;
-                    gap: 4px;
-
-                    .icon-box {
+                    .Projects__iconBox {
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -131,11 +77,11 @@
 
                     }
 
-                    .link {
+                    .Projects__link {
                         text-decoration: none;
 
-                        p {
-                            font-size: 8px;
+                        .Projects__btnText {
+                            font-size: 0.6rem;
                             color: var(--text-white);
                             transition: color 0.3s ease-in-out;
                         }
@@ -166,10 +112,10 @@
 
     @media only screen and (max-width: 576px) {
 
-        .project-container {
+        .Projects__container {
             flex-direction: column;
 
-            .project-box {
+            .Projects__content {
                 width: 100%;
             }
         }

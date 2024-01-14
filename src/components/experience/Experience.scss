@@ -3,40 +3,40 @@
     padding-top: 50px;
     margin-bottom: 20px;
 
-    .experience-heading {
+    .Experience__headingText {
         text-align: center;
         letter-spacing: 1px;
         margin-bottom: 16px;
         user-select: none;
     }
 
-    .experience-container {
+    .Experience__container {
         width: 100%;
 
-        .company {
+        .Experience__companyBox {
             width: 100%;
             display: flex;
             flex-direction: column;
             row-gap: 2px;
 
-            .company-title {
+            .Experience__companyTitle {
                 display: flex;
                 align-items: center;
                 gap: 8px;
 
-                .company-icon {
+                .Experience__companyIcon {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                 }
 
-                .company-name {
+                .Experience__companyName {
                     margin-block: 8px;
                     user-select: none;
                 }
             }
 
-            .job-title {
+            .Experience__jobTitle {
                 width: 40%;
                 padding: 8px;
                 display: flex;
@@ -46,27 +46,27 @@
                 margin-left: 16px;
                 user-select: none;
 
-                .job-title-icon {
+                .Experience__jobTitleIcon {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                 }
 
-                .job-profile {
+                .Experience__jobProfile {
                     font-weight: 600;
                 }
             }
 
-            .job-summary {
+            .Experience__jobSummary {
                 margin-left: 50px;
             }
 
-            .job-desc-heading {
+            .Experience__jobDescHeading {
                 margin-left: 16px;
                 font-weight: bold;
             }
 
-            .job-desc {
+            .Experience__jobDesc {
                 margin-left: 50px;
                 padding-bottom: 8px;
 
@@ -75,13 +75,13 @@
                 }
             }
 
-            .bottom-summary {
+            .Experience__bottomSummary {
                 margin-top: 8px;
                 margin-left: 50px;
             }
         }
 
-        .horizontal-roll {
+        .horizontal-rule {
             width: 80%;
             margin: 8px auto;
 
@@ -90,23 +90,23 @@
 
     @media only screen and (max-width: 576px) {
 
-        .experience-container {
-            .company {
-                .job-title {
+        .Experience__container {
+            .Experience__companyBox {
+                .Experience__jobTitle {
                     width: 100%;
                     margin-left: 0;
                 }
 
-                .job-summary,
-                .job-desc-heading {
+                .Experience__jobSummary,
+                .Experience__jobDescHeading {
                     margin-left: 8px;
                 }
 
-                .job-desc {
+                .Experience__jobDesc {
                     margin-left: 20px;
                 }
 
-                .bottom-summary {
+                .Experience__bottomSummary {
                     margin-left: 8px;
                 }
             }

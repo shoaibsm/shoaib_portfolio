@@ -8,198 +8,116 @@ import { FaGithub } from "react-icons/fa";
 function Projects() {
     return (
         <div className='Projects'>
-            <h2 className='project-heading'>Projects</h2>
-            <div className="project-container">
-                <div className="project-box">
-                    <div className="img-container">
-                        <img className='project-img' src={projectImg} alt="Project" />
+            <h2 className='Projects__headingText'>Projects</h2>
+            <div className="Projects__container">
+                <div className="Projects__content">
+                    <div className="Projects__imgContainer">
+                        <img className='Projects__img' src={projectImg} alt="Project" />
                     </div>
-                    <div className="project-name">
-                        <h4 className='project-title'>Sample Project</h4>
+                    <div className="Projects__titleBox">
+                        <h4 className='Projects__titleText'>Sample Project</h4>
                     </div>
-                    <div className="project-desc">
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
+                    <div className="Projects__desc">
+                        <p className="Projects__descText">Lorem ipsum dolor sit amet</p>
+                        <p className="Projects__descText">Lorem ipsum dolor sit amet</p>
+                        <p className="Projects__descText">Lorem ipsum dolor sit amet</p>
                     </div>
-                    <div className="project-links">
-                        <div className="go-to-project btn-primary">
-                            <div className="icon-box">
+                    <div className="Projects__navigation">
+                        <div className="Projects__btn--open btn-primary">
+                            <div className="Projects__iconBox">
                                 <IoIosLaptop className='icon' />
                             </div>
-                            <Link className='link'><p>Website</p></Link>
+                            <Link className='Projects__link'><p className='Projects__btnText'>Website</p></Link>
                         </div>
-                        <div className="go-to-github btn-primary">
-                            <div className="icon-box">
+                        <div className="Projects__btn--open btn-primary">
+                            <div className="Projects__iconBox">
                                 <FaGithub className='icon' />
                             </div>
-                            <Link className='link'><p> Git Code</p></Link>
+                            <Link className='Projects__link'><p className='Projects__btnText'>  Git Code</p></Link>
                         </div>
                     </div>
                 </div>
-                <div className="project-box">
-                    <div className="img-container">
-                        <img className='project-img' src={projectImg} alt="Project" />
+                <div className="Projects__content">
+                    <div className="Projects__imgContainer">
+                        <img className='Projects__img' src={projectImg} alt="Project" />
                     </div>
-                    <div className="project-name">
-                        <h4 className='project-title'>Sample Project</h4>
+                    <div className="Projects__titleBox">
+                        <h4 className='Projects__titleText'>Sample Project</h4>
                     </div>
-                    <div className="project-desc">
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
+                    <div className="Projects__desc">
+                        <p className="Projects__descText">Lorem ipsum dolor sit amet</p>
+                        <p className="Projects__descText">Lorem ipsum dolor sit amet</p>
+                        <p className="Projects__descText">Lorem ipsum dolor sit amet</p>
                     </div>
-                    <div className="project-links">
-                        <div className="go-to-project btn-primary">
-                            <div className="icon-box">
+                    <div className="Projects__navigation">
+                        <div className="Projects__btn--open btn-primary">
+                            <div className="Projects__iconBox">
                                 <IoIosLaptop className='icon' />
                             </div>
-                            <Link className='link'><p>Website</p></Link>
+                            <Link className='Projects__link'><p className='Projects__btnText'>Website</p></Link>
                         </div>
-                        <div className="go-to-github btn-primary">
-                            <div className="icon-box">
+                        <div className="Projects__btn--open btn-primary">
+                            <div className="Projects__iconBox">
                                 <FaGithub className='icon' />
                             </div>
-                            <Link className='link'><p>Git Code</p></Link>
+                            <Link className='Projects__link'><p className='Projects__btnText'>  Git Code</p></Link>
                         </div>
                     </div>
                 </div>
-                <div className="project-box">
-                    <div className="img-container">
-                        <img className='project-img' src={projectImg} alt="Project" />
+                <div className="Projects__content">
+                    <div className="Projects__imgContainer">
+                        <img className='Projects__img' src={projectImg} alt="Project" />
                     </div>
-                    <div className="project-name">
-                        <h4 className='project-title'>Sample Project</h4>
+                    <div className="Projects__titleBox">
+                        <h4 className='Projects__titleText'>Sample Project</h4>
                     </div>
-                    <div className="project-desc">
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
+                    <div className="Projects__desc">
+                        <p className="Projects__descText">Lorem ipsum dolor sit amet</p>
+                        <p className="Projects__descText">Lorem ipsum dolor sit amet</p>
+                        <p className="Projects__descText">Lorem ipsum dolor sit amet</p>
                     </div>
-                    <div className="project-links">
-                        <div className="go-to-project btn-primary">
-                            <div className="icon-box">
+                    <div className="Projects__navigation">
+                        <div className="Projects__btn--open btn-primary">
+                            <div className="Projects__iconBox">
                                 <IoIosLaptop className='icon' />
                             </div>
-                            <Link className='link'><p>Website</p></Link>
+                            <Link className='Projects__link'><p className='Projects__btnText'>Website</p></Link>
                         </div>
-                        <div className="go-to-github btn-primary">
-                            <div className="icon-box">
+                        <div className="Projects__btn--open btn-primary">
+                            <div className="Projects__iconBox">
                                 <FaGithub className='icon' />
                             </div>
-                            <Link className='link'><p>Git Code</p></Link>
+                            <Link className='Projects__link'><p className='Projects__btnText'>  Git Code</p></Link>
                         </div>
                     </div>
                 </div>
-                <div className="project-box">
-                    <div className="img-container">
-                        <img className='project-img' src={projectImg} alt="Project" />
+                <div className="Projects__content">
+                    <div className="Projects__imgContainer">
+                        <img className='Projects__img' src={projectImg} alt="Project" />
                     </div>
-                    <div className="project-name">
-                        <h4 className='project-title'>Sample Project</h4>
+                    <div className="Projects__titleBox">
+                        <h4 className='Projects__titleText'>Sample Project</h4>
                     </div>
-                    <div className="project-desc">
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
+                    <div className="Projects__desc">
+                        <p className="Projects__descText">Lorem ipsum dolor sit amet</p>
+                        <p className="Projects__descText">Lorem ipsum dolor sit amet</p>
+                        <p className="Projects__descText">Lorem ipsum dolor sit amet</p>
                     </div>
-                    <div className="project-links">
-                        <div className="go-to-project btn-primary">
-                            <div className="icon-box">
+                    <div className="Projects__navigation">
+                        <div className="Projects__btn--open btn-primary">
+                            <div className="Projects__iconBox">
                                 <IoIosLaptop className='icon' />
                             </div>
-                            <Link className='link'><p>Website</p></Link>
+                            <Link className='Projects__link'><p className='Projects__btnText'>Website</p></Link>
                         </div>
-                        <div className="go-to-github btn-primary">
-                            <div className="icon-box">
+                        <div className="Projects__btn--open btn-primary">
+                            <div className="Projects__iconBox">
                                 <FaGithub className='icon' />
                             </div>
-                            <Link className='link'><p>Git Code</p></Link>
+                            <Link className='Projects__link'><p className='Projects__btnText'>  Git Code</p></Link>
                         </div>
                     </div>
                 </div>
-                <div className="project-box">
-                    <div className="img-container">
-                        <img className='project-img' src={projectImg} alt="Project" />
-                    </div>
-                    <div className="project-name">
-                        <h4 className='project-title'>Sample Project</h4>
-                    </div>
-                    <div className="project-desc">
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                    <div className="project-links">
-                        <div className="go-to-project btn-primary">
-                            <div className="icon-box">
-                                <IoIosLaptop className='icon' />
-                            </div>
-                            <Link className='link'><p>Website</p></Link>
-                        </div>
-                        <div className="go-to-github btn-primary">
-                            <div className="icon-box">
-                                <FaGithub className='icon' />
-                            </div>
-                            <Link className='link'><p>Git Code</p></Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="project-box">
-                    <div className="img-container">
-                        <img className='project-img' src={projectImg} alt="Project" />
-                    </div>
-                    <div className="project-name">
-                        <h4 className='project-title'>Sample Project</h4>
-                    </div>
-                    <div className="project-desc">
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                    <div className="project-links">
-                        <div className="go-to-project btn-primary">
-                            <div className="icon-box">
-                                <IoIosLaptop className='icon' />
-                            </div>
-                            <Link className='link'><p>Website</p></Link>
-                        </div>
-                        <div className="go-to-github btn-primary">
-                            <div className="icon-box">
-                                <FaGithub className='icon' />
-                            </div>
-                            <Link className='link'><p>Git Code</p></Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="project-box">
-                    <div className="img-container">
-                        <img className='project-img' src={projectImg} alt="Project" />
-                    </div>
-                    <div className="project-name">
-                        <h4 className='project-title'>Sample Project</h4>
-                    </div>
-                    <div className="project-desc">
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                    <div className="project-links">
-                        <div className="go-to-project btn-primary">
-                            <div className="icon-box">
-                                <IoIosLaptop className='icon' />
-                            </div>
-                            <Link className='link'><p>Website</p></Link>
-                        </div>
-                        <div className="go-to-github btn-primary">
-                            <div className="icon-box">
-                                <FaGithub className='icon' />
-                            </div>
-                            <Link className='link'><p>Git Code</p></Link>
-                        </div>
-                    </div>
-                </div>
-
 
             </div>
         </div>

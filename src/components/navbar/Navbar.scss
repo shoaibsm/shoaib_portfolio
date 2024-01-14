@@ -6,17 +6,17 @@
     left: 0;
     z-index: 1000;
 
-    .container {
+    .Navbar__container {
         width: 100%;
         display: flex;
         align-items: center;
         padding-block: 10px;
         position: relative;
 
-        .brand-section {
+        .Navbar__brandSection {
             width: 50%;
 
-            .brand-name {
+            .Navbar__brandBox {
                 .name {
                     font-size: 1rem;
                     font-weight: 700;
@@ -32,22 +32,22 @@
             }
         }
 
-        .navigation-section {
+        .Navbar__navigationSection--open {
             display: flex;
             align-items: center;
             justify-content: space-between;
             gap: 20px;
             width: 50%;
 
-            .navigation-container {
-                ul {
+            .Navbar__navigationContainer {
+                .Navbar__list {
                     list-style: none;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     gap: 20px;
 
-                    li {
+                    .Navbar__item {
                         color: var(--background-color);
                         letter-spacing: 1px;
                         cursor: pointer;
@@ -65,11 +65,11 @@
             }
         }
 
-        .navigation-section-close {
+        .Navbar__navigationSection--close {
             display: none;
         }
 
-        .cv-btn {
+        .Navbar__btn--browse {
             background-color: var(--background-color);
             border-radius: 15px;
             cursor: pointer;
@@ -85,15 +85,15 @@
                 background-color: var(--background-color);
             }
 
-            a {
+            .Navbar__btn--Link {
                 display: block;
                 width: 100%;
                 height: 100%;
-                padding: 7px 15px;
+                padding: 4px 12px;
                 border-radius: 15px;
                 text-decoration: none;
 
-                .btn-text {
+                .Navbar__btnText {
                     font-size: 0.6rem;
                     letter-spacing: 1px;
                     color: var(--text-color);
@@ -114,32 +114,30 @@
     }
 
     @media only screen and (max-width: 576px) {
-
-        .container {
-            width: 100%;
+        .Navbar__container {
             flex-direction: column;
             justify-content: center;
 
-            .brand-section {
+            .Navbar__brandSection {
                 align-self: flex-start;
                 background-color: orange;
                 width: 100%;
             }
 
-            .navigation-section {
+            .Navbar__navigationSection--open {
 
                 justify-content: center;
 
-                .navigation-container {
+                .Navbar__navigationContainer {
                     margin-top: 8px;
 
-                    ul {
+                    .Navbar__list {
                         flex-direction: column;
                         row-gap: 10px;
                     }
                 }
 
-                .cv-btn {
+                .Navbar__btn--browse {
                     display: none;
                 }
             }
@@ -149,5 +147,13 @@
             }
         }
 
+    }
+
+    @media only screen and (max-width: 576px) {
+        .Navbar__container {
+            .Navbar__brandSection {
+                width: 100%;
+            }
+        }
     }
 }

@@ -4,12 +4,12 @@
     padding-top: 50px;
     margin-bottom: 20px;
 
-    .about-me-heading {
+    .AboutMe__heading {
         letter-spacing: 1px;
         user-select: none;
     }
 
-    .about-me-container {
+    .AboutMe__content {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -22,10 +22,10 @@
             }
         }
 
-        .about-me-details {
+        .AboutMe__details {
             text-align: left;
 
-            p {
+            .AboutMe__text {
                 padding-bottom: 8px;
             }
         }
