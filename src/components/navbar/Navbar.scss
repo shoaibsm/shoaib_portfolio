@@ -48,7 +48,8 @@
                     gap: 20px;
 
                     .Navbar__item {
-                        color: var(--background-color);
+                        // color: var(--background-color); // change the color name 
+                        color: red;
                         letter-spacing: 1px;
                         cursor: pointer;
                         user-select: none;
@@ -138,6 +139,11 @@
 
                 .Navbar__btn--browse {
                     display: none;
+                }
+
+                .Navbar__navigationSection--close {
+                    display: none;
+                    /* Add this line */
                 }
             }
 

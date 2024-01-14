@@ -24,6 +24,7 @@ function Navbar() {
 
     function toggler() {
         setIsNavOpen(!isNavOpen)
+        console.log(isNavOpen);
     }
 
     return (
@@ -39,16 +40,18 @@ function Navbar() {
 
                 {window.innerWidth <= 576 ? (<div className={isNavOpen ? 'Navbar__navigationSection--open' : 'Navbar__navigationSection--close'}>
                     <div className="navigation-container">
-                        <ul>
-                            <li><Link to="about" smooth={true} duration={500}>About Me</Link></li>
-                            <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
-                            <li><Link to="experience" smooth={true} duration={500}>Experience</Link></li>
-                            <li><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
-                            <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
+                        <ul className='Navbar__list'>
+                            <li className='Navbar__item'><Link to="about" smooth={true} duration={500}>About Me</Link></li>
+                            <li className='Navbar__item'><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
+                            <li className='Navbar__item'><Link to="experience" smooth={true} duration={500}>Experience</Link></li>
+                            <li className='Navbar__item'><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
+                            <li className='Navbar__item'><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
                         </ul>
                     </div>
-                    <div className="cv-btn">
-                        <p className='btn-tex'>Download CV</p>
+                    <div className="Navbar__btn--browse">
+                        <a className="Navbar__btn--Link" href="https://shoaib-sm-resume.onrender.com/" target="_blank" rel="noopener noreferrer">
+                            <p className='Navbar__btnText'>Browse CV</p>
+                        </a>
                     </div>
                 </div>) : (<div className={'Navbar__navigationSection--open'}>
                     <div className="Navbar__navigationContainer">
