@@ -6,17 +6,17 @@
     left: 0;
     z-index: 1000;
 
-    .Navbar__container {
+    .container {
         width: 100%;
         display: flex;
         align-items: center;
-        padding-block: 10px;
+        padding-block: 8px;
         position: relative;
 
-        .Navbar__brandSection {
+        .brand-section {
             width: 50%;
 
-            .Navbar__brandBox {
+            .brand-name {
                 .name {
                     font-size: 1rem;
                     font-weight: 700;
@@ -32,24 +32,23 @@
             }
         }
 
-        .Navbar__navigationSection--open {
+        .navigation-section {
             display: flex;
             align-items: center;
             justify-content: space-between;
             gap: 20px;
             width: 50%;
 
-            .Navbar__navigationContainer {
-                .Navbar__list {
+            .navigation-container {
+                ul {
                     list-style: none;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     gap: 20px;
 
-                    .Navbar__item {
-                        // color: var(--background-color); // change the color name 
-                        color: red;
+                    li {
+                        color: var(--background-color);
                         letter-spacing: 1px;
                         cursor: pointer;
                         user-select: none;
@@ -66,11 +65,11 @@
             }
         }
 
-        .Navbar__navigationSection--close {
+        .navigation-section-close {
             display: none;
         }
 
-        .Navbar__btn--browse {
+        .cv-btn {
             background-color: var(--background-color);
             border-radius: 15px;
             cursor: pointer;
@@ -86,15 +85,15 @@
                 background-color: var(--background-color);
             }
 
-            .Navbar__btn--Link {
+            a {
                 display: block;
                 width: 100%;
                 height: 100%;
-                padding: 4px 12px;
+                padding: 7px 15px;
                 border-radius: 15px;
                 text-decoration: none;
 
-                .Navbar__btnText {
+                .btn-text {
                     font-size: 0.6rem;
                     letter-spacing: 1px;
                     color: var(--text-color);
@@ -115,35 +114,37 @@
     }
 
     @media only screen and (max-width: 576px) {
-        .Navbar__container {
+
+        .container {
+            width: 100%;
             flex-direction: column;
             justify-content: center;
 
-            .Navbar__brandSection {
+            .brand-section {
                 align-self: flex-start;
-                width: 100%;
+
+                .brand-name {
+                    .name {
+                        font-size: 0.8rem;
+                    }
+                }
             }
 
-            .Navbar__navigationSection--open {
+            .navigation-section {
 
                 justify-content: center;
 
-                .Navbar__navigationContainer {
+                .navigation-container {
                     margin-top: 8px;
 
-                    .Navbar__list {
+                    ul {
                         flex-direction: column;
                         row-gap: 10px;
                     }
                 }
 
-                .Navbar__btn--browse {
+                .cv-btn {
                     display: none;
-                }
-
-                .Navbar__navigationSection--close {
-                    display: none;
-                    /* Add this line */
                 }
             }
 
@@ -152,13 +153,5 @@
             }
         }
 
-    }
-
-    @media only screen and (max-width: 576px) {
-        .Navbar__container {
-            .Navbar__brandSection {
-                width: 100%;
-            }
-        }
     }
 }
