@@ -7,8 +7,8 @@
     padding-top: 100px;
     margin-bottom: 20px;
 
-    .my-details {
-        .greeting {
+    .Introduction__myDetails {
+        .Introduction__greeting {
             letter-spacing: 1px;
             user-select: none;
             transition: 0.3s ease-in-out;
@@ -18,7 +18,7 @@
             }
         }
 
-        .name {
+        .Introduction__myName {
             font-size: 1.5rem;
             font-weight: 700;
             padding-top: 0.2rem;
@@ -41,10 +41,10 @@
             }
         }
 
-        .social-media {
+        .socialMediaNav {
             padding-top: 1.3rem;
 
-            ul {
+            .socialMediaNav__list {
                 list-style: none;
                 display: flex;
                 align-items: center;
@@ -87,11 +87,11 @@
         }
     }
 
-    .profile-img-box {
+    .Introduction__profileImgBox {
         width: 200px;
         height: 200px;
 
-        .profile-img {
+        .Introduction__profileImg {
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -102,10 +102,10 @@
 
         flex-direction: column-reverse;
 
-        .profile-img-box {
+        .Introduction__profileImgBox {
             border-radius: 50%;
 
-            .profile-img {
+            .Introduction__profileImg {
                 border-radius: 50%;
             }
         }

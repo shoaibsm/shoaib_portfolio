@@ -9,37 +9,37 @@ import { FaSquareInstagram } from "react-icons/fa6";
 function Introduction() {
     return (
         <div className='Introduction'>
-            <div className="my-details">
-                <p className="greeting">Hello, I'm </p>
-                <h1 className="name">Shoaib Mohammed</h1>
+            <div className="Introduction__myDetails">
+                <p className="Introduction__greeting">Hello, I'm </p>
+                <h1 className="Introduction__myName">Shoaib Mohammed</h1>
                 <p className="role">MERN Stack Developer</p>
-                <div className="social-media">
-                    <ul>
-                        <li>
+                <nav className="socialMediaNav">
+                    <ul className='socialMediaNav__list'>
+                        <li className='socialMediaNav__item'>
                             <a href="https://www.linkedin.com/in/shoaib-mohammed95/" target="_blank" rel="noopener noreferrer">
                                 <IoLogoLinkedin className='icon' />
                             </a>
                         </li>
-                        <li>
+                        <li className='socialMediaNav__item'>
                             <a href="https://github.com/shoaibsm" target="_blank" rel="noopener noreferrer">
                                 <FaGithub className='icon' />
                             </a>
                         </li>
-                        <li>
+                        <li className='socialMediaNav__item'>
                             <a href="https://www.facebook.com/shoaib.mohammed.71271" target="_blank" rel="noopener noreferrer">
                                 <FaFacebook className='icon' />
                             </a>
                         </li>
-                        <li>
+                        <li className='socialMediaNav__item'>
                             <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                                 <FaSquareInstagram className='icon' />
                             </a>
                         </li>
                     </ul>
-                </div>
+                </nav>
             </div>
-            <div className="profile-img-box">
-                <img className='profile-img' src={profileImg} alt="Shoaib Mohammed" />
+            <div className="Introduction__profileImgBox">
+                <img className='Introduction__profileImg' src={profileImg} alt="Shoaib Mohammed" />
             </div>
         </div>
     )
