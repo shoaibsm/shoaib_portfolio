@@ -1,3 +1,20 @@
 .Portfolio {
     width: 75%;
 }
+
+
+
+.toggle__btn--them {
+    text-align: center;
+    width: 90px;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    font-size: 0.5rem;
+    user-select: none;
+    letter-spacing: 1px;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}

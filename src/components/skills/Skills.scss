@@ -16,6 +16,11 @@
         .Skills__headingText {
             letter-spacing: 1px;
             user-select: none;
+            transition: color 0.3s ease-in-out;
+
+            &:hover {
+                color: var(--brand-color);
+            }
         }
 
         .Skills__technicalContent {
@@ -31,7 +36,6 @@
                 flex-direction: column;
                 padding: 10px 10px;
                 border-radius: 4px;
-                // background-color: var(--background-color);
                 background-color: #edf2f4;
                 transition: transform 0.3s ease-in-out;
                 overflow: hidden;
@@ -42,7 +46,7 @@
                     height: 0;
                     background-color: rgba(0, 0, 0, 0.1);
                     position: absolute;
-                    bottom: 0; // start from bottom
+                    bottom: 0;
                     left: 0;
                     transition: height 0.3s ease-in-out
                 }
@@ -53,6 +57,10 @@
 
                     &::before {
                         height: 100%;
+                    }
+
+                    .Skills__icon {
+                        color: var(--brand-color);
                     }
                 }
 
@@ -84,10 +92,8 @@
         .devProficiency__headingText {
             letter-spacing: 1px;
             margin: 8px 0 8px 8px;
-            // padding-block: 8px;
             font-weight: 500;
             user-select: none;
-            // color: red;
         }
 
         .devProficiency__box {
@@ -148,7 +154,6 @@
             }
         }
     }
-
 
     @media only screen and (max-width: 576px) {
         .Skills__container {

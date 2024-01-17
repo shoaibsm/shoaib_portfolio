@@ -64,7 +64,6 @@ code {
 
 p,
 li {
-	/* color: #373a3c; */
 	color: var(--text-color);
 	font-size: 0.7rem;
 	line-height: 16px;
@@ -106,29 +105,6 @@ hr {
 	border-radius: 20px;
 	letter-spacing: 1px;
 	cursor: pointer;
-
-	/* font-family: montserrat;
-	display: inline-block;
-	height: 42px;
-	padding: 0 30px;
-	text-align: center;
-	font-size: 12px;
-	font-weight: 600;
-	line-height: 40px;
-	letter-spacing: 2px;
-	margin: 20px 0;
-	text-transform: uppercase;
-	text-decoration: none !important;
-	white-space: nowrap;
-	cursor: pointer;
-	background-color: transparent;
-	background: #001e5f;
-	color: #fff;
-	border: 1px solid #1e266d;
-	border-radius: 50px;
-	box-sizing: border-box;
-	transition: .2s; */
-
 }
 
 .btn-primary:hover {

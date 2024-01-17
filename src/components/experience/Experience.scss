@@ -8,6 +8,11 @@
         letter-spacing: 1px;
         margin-bottom: 16px;
         user-select: none;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+            color: var(--brand-color);
+        }
     }
 
     .Experience__container {
@@ -28,11 +33,21 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+
+                    .icon {
+                        transition: color 0.3s ease-in-out;
+                    }
                 }
 
                 .Experience__companyName {
                     margin-block: 8px;
                     user-select: none;
+                }
+
+                &:hover {
+                    .icon {
+                        color: var(--brand-color);
+                    }
                 }
             }
 
@@ -50,6 +65,16 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+
+                    .icon {
+                        transition: color 0.3s ease-in-out;
+                    }
+                }
+
+                &:hover {
+                    .icon {
+                        color: var(--brand-color);
+                    }
                 }
 
                 .Experience__jobProfile {

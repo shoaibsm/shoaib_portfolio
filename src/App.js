@@ -1,20 +1,30 @@
 import './App.css';
 import Portfolio from './pages/Portfolio';
 import Navbar from './components/navbar/Navbar';
-import { createGlobalStyle } from 'styled-components';
-
-const GlobalStyle = createGlobalStyle`
-    body {
-        font-family: 'Montserrat', sans-serif;
-    }`;
+import { ThemeProvider } from 'styled-components';
+import { useState } from 'react';
+import { GlobalStyle } from './styles/GlobalStyles';
 
 function App() {
+
+	const [isDarkMode, setIsDarkMode] = useState(false)
+
+	const toggleDarkMode = () => {
+		setIsDarkMode(!isDarkMode)
+	}
+
 	return (
-		<div className="App">
-			<GlobalStyle />
-			<Navbar />
-			<Portfolio className='Portfolio' />
-		</div>
+		<ThemeProvider theme={{ isDarkMode }}>
+			<div className={`App ${isDarkMode ? 'dark-mode' : ''}`}>
+				<GlobalStyle />
+				<Navbar />
+				<Portfolio className='Portfolio' isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+
+				{/* <button onClick={toggleDarkMode} className='toggle__btn--them'>
+					{isDarkMode ? 'Light Theme' : 'Dark Theme'}
+				</button> */}
+			</div>
+		</ThemeProvider>
 	);
 }
 

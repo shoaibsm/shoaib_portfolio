@@ -3,11 +3,17 @@
     padding-bottom: 30px;
     padding-top: 50px;
 
+
     .Projects__headingText {
         text-align: center;
         letter-spacing: 1px;
         margin-bottom: 16px;
         user-select: none;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+            color: var(--brand-color);
+        }
     }
 
     .Projects__container {
@@ -93,13 +99,13 @@
                     }
 
                     &:hover {
-                        .icon-box {
+                        .Projects__iconBox {
                             .icon {
                                 color: var(--brand-color);
                             }
                         }
 
-                        .link {
+                        .Projects__link {
                             p {
                                 color: var(--brand-color);
                             }

@@ -172,12 +172,10 @@
         position: fixed;
         bottom: 8px;
         right: 8px;
-        // background-color: var(--background-color);
         border-radius: 15px;
         cursor: pointer;
-
-        // box-shadow: 2px 2px 20px 1px rgba(255, 255, 255, 0.45);
         transition: background-color 0.2s ease-in-out;
+        display: none;
 
         .ContactInfo__btn--Link {
             display: block;
@@ -200,49 +198,19 @@
         }
     }
 
-    // .download-resume {
-    //     position: absolute;
-    //     bottom: 10px;
-    //     right: 10px;
-    //     position: fixed;
-    //     display: none;
+    .ContactInfo__gitLinkText {
+        color: var(--text-white);
+        padding-top: 8px;
+        font-style: italic;
+        position: absolute;
+        left: 8px;
+        bottom: 4px;
 
-    //     a {
-    //         display: block;
-    //         width: 100%;
-    //         height: 100%;
-    //         text-decoration: none;
-    //         display: flex;
-    //         flex-direction: column;
-    //         align-items: center;
-
-    //         .download-icon {
-    //             width: 25px;
-    //             height: 25px;
-    //             border-radius: 50%;
-    //             display: flex;
-    //             align-items: center;
-    //             justify-content: center;
-    //             background-color: var(--background-color);
-    //             box-shadow: 2px 2px 15px 0.5px rgba(0, 0, 0, 0.6);
-
-    //             .icon {
-    //                 color: var(--primary-color);
-    //                 transition: color 0.3s ease-in-out;
-
-    //                 &:hover {
-    //                     color: var(--brand-color);
-    //                 }
-    //             }
-    //         }
-    //     }
-
-    //     p {
-    //         font-size: 0.5rem;
-    //         letter-spacing: 1px;
-    //         color: #b91c1c;
-    //     }
-    // }
+        a {
+            text-decoration: none;
+            color: var(--brand-color);
+        }
+    }
 
     @media only screen and (max-width: 576px) {
 
@@ -250,7 +218,6 @@
             width: 100%;
 
             .mainNavigation {
-
                 .mainNavigation__list {
                     .mainNavigation__item {
                         p {
@@ -263,7 +230,6 @@
             .socialConnect {
                 flex-direction: column;
                 row-gap: 20px;
-
 
                 .innerSocialConnect {
                     .socialConnect__aboutMe {
@@ -284,8 +250,9 @@
             }
         }
 
-        .download-resume {
+        .ContactInfo__btn--browse {
             display: block;
         }
     }
+
 }

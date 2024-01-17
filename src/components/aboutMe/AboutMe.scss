@@ -4,9 +4,14 @@
     padding-top: 50px;
     margin-bottom: 20px;
 
-    .AboutMe__heading {
+    .AboutMe__headingText {
         letter-spacing: 1px;
         user-select: none;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+            color: var(--brand-color);
+        }
     }
 
     .AboutMe__content {

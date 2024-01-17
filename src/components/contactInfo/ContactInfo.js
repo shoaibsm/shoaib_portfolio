@@ -9,7 +9,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { Link } from 'react-scroll';
-// import { RiFileDownloadFill } from "react-icons/ri";
 import { RiFileDownloadFill } from "react-icons/ri"
 
 function ContactInfo() {
@@ -103,6 +102,7 @@ function ContactInfo() {
                     <p className='ContactInfo__btnText'>Browse CV</p>
                 </a>
             </div>
+            <p className='ContactInfo__gitLinkText'>Explore the source code on GitHub <a href="https://shoaib-sm-resume.onrender.com/" target="_blank" rel="noopener noreferrer">click here</a></p>
         </section>
     )
 }
