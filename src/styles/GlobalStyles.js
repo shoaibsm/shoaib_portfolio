@@ -75,7 +75,7 @@ export const StyledProjects = styled.div`
 `
 
 export const ToggleButton = styled.div`
-    background-color: ${(props) => (props.isDarkMode ? '#00A9FF' : '#ffffff')};
+    background-color: ${(props) => (props.isDarkMode ? '#00A9FF' : '#e9ecef')};
     color: ${(props) => (props.isDarkMode ? '#ffffff' : '#212529')};
     transition: background-color 0.3s ease-in-out;
 `

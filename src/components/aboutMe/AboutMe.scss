@@ -6,6 +6,7 @@
 
     .AboutMe__headingText {
         letter-spacing: 1px;
+        margin-bottom: 16px;
         user-select: none;
         transition: color 0.3s ease-in-out;
 
@@ -18,7 +19,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 2rem;
+        gap: 16px;
 
         .profile-img {
             img {

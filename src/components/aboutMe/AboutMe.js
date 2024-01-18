@@ -1,6 +1,6 @@
 import React from 'react'
 import './AboutMe.scss'
-import profileImg from '../../assets/shoaib_img_1.jpg'
+import mernStackDeveloperImg from '../../assets/MERN-Stack-Developer.png'
 import { StyledAboutMe } from '../../styles/GlobalStyles'
 
 function AboutMe({ isDarkMode }) {
@@ -11,7 +11,7 @@ function AboutMe({ isDarkMode }) {
                 <h2 className='AboutMe__headingText'>About Me</h2>
                 <div className="AboutMe__content">
                     <div className="profile-img">
-                        <img src={profileImg} alt="Shoaib Mohammed" />
+                        <img src={mernStackDeveloperImg} alt="Shoaib Mohammed" />
                     </div>
                     <div className="AboutMe__details">
                         <p className='AboutMe__text'>
