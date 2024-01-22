@@ -19,10 +19,6 @@ function App() {
 				<GlobalStyle />
 				<Navbar />
 				<Portfolio className='Portfolio' isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
-
-				{/* <button onClick={toggleDarkMode} className='toggle__btn--them'>
-					{isDarkMode ? 'Light Theme' : 'Dark Theme'}
-				</button> */}
 			</div>
 		</ThemeProvider>
 	);
