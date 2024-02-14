@@ -38,7 +38,7 @@ function Skills({ isDarkMode }) {
                             <IoLogoCss3 className='Skills__icon icon' />
                             <div className="Skills__details">
                                 <h4 className='Skills__nameText'>CSS</h4>
-                                <p className='Skills__nameText'>
+                                <p className='Skills__descText'>
                                     I'm skilled at creating visually appealing and responsive web designs using CSS. I have expertise in crafting clean and well-structured stylesheets to ensure a seamless and engaging user experience. My knowledge extends to the latest CSS3 features, allowing me to implement modern design trends effectively.
                                 </p>
                             </div>
@@ -47,7 +47,7 @@ function Skills({ isDarkMode }) {
                             <FaSass className='Skills__icon icon' />
                             <div className="Skills__details">
                                 <h4 className='Skills__nameText'>SASS</h4>
-                                <p className='Skills__nameText'>
+                                <p className='Skills__descText'>
                                     Proficient in Sass, I leverage its power to streamline and enhance the styling process. Sass provides me with the ability to write more maintainable and organized stylesheets, making it easier to manage and scale projects. This allows for efficient styling and a consistent look and feel across web applications.
                                 </p>
                             </div>
@@ -56,7 +56,7 @@ function Skills({ isDarkMode }) {
                             <RiJavascriptFill className='Skills__icon icon' />
                             <div className="Skills__details">
                                 <h4 className='Skills__nameText'>Java Script</h4>
-                                <p className='Skills__nameText'>
+                                <p className='Skills__descText'>
                                     Proficient in writing clean and modular JavaScript code to enhance the interactivity and functionality of web applications. Experience in working with modern JavaScript frameworks like React.js. Knowledge of ES6+ features and the ability to handle asynchronous operations.
                                 </p>
                             </div>

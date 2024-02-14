@@ -24,6 +24,15 @@ export const StyledSkills = styled.div`
     .Skills__headingText{
         color: ${(props) => (props.isDarkMode ? '#ffffff' : '#3A3A47')};
     }
+    .Skills__box{
+        background-color: ${(props) => (props.isDarkMode ? '#939393' : '#edf2f4')};
+    }
+    .Skills__descText{
+        color: ${(props) => (props.isDarkMode ? '#2C2C2C' : '#3A3A47')};
+    }
+    .devProficiency{
+        background-color: ${(props) => (props.isDarkMode ? '#939393' : '#edf2f4')};
+    }
 `
 export const StyledExperience = styled.div`
     .Experience__headingText{
@@ -54,12 +63,14 @@ export const StyledExperience = styled.div`
     }
 `
 
-export const styledProjects = styled.div`
-    .Projects__headingText{
-        color: ${(props) => (props.isDarkMode ? '#ffffff' : '#3A3A47')};
-    }
-
-`
+// export const styledProjects = styled.div`
+//     .Projects__headingText{
+//         color: ${(props) => (props.isDarkMode ? '#ffffff' : '#3A3A47')};
+//     }
+//     .Projects__content{
+//         background-color: ${(props) => (props.isDarkMode ? '#939393' : '#edf2f4')};
+//     }
+// `
 export const StyledAboutMe = styled.div`
     .AboutMe__headingText{
         color: ${(props) => (props.isDarkMode ? '#ffffff' : '#212529')};
@@ -71,6 +82,9 @@ export const StyledAboutMe = styled.div`
 export const StyledProjects = styled.div`
     .Projects__headingText{
         color: ${(props) => (props.isDarkMode ? '#ffffff' : '#212529')};
+    }
+    .Projects__content{
+        background-color: ${(props) => (props.isDarkMode ? '#939393' : '#edf2f4')};
     }
 `
 
