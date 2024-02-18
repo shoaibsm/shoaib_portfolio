@@ -1,6 +1,5 @@
 import React from 'react'
 import './Introduction.scss'
-import profileImg from '../../assets/shoaib_02.jpg'
 import myProfileImg from '../../assets/myProfileImg.jpg'
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
