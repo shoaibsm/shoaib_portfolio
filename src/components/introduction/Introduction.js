@@ -1,6 +1,7 @@
 import React from 'react'
 import './Introduction.scss'
 import profileImg from '../../assets/shoaib_02.jpg'
+import myProfileImg from '../../assets/myProfileImg.jpg'
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
@@ -42,7 +43,7 @@ function Introduction({ isDarkMode }) {
                     </nav>
                 </div>
                 <div className="Introduction__profileImgBox">
-                    <img className='Introduction__profileImg' src={profileImg} alt="Shoaib Mohammed" />
+                    <img className='Introduction__profileImg' src={myProfileImg} alt="Shoaib Mohammed" />
                 </div>
             </div>
         </StyledIntroduction>
