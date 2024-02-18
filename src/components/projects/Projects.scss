@@ -25,17 +25,16 @@
         .Projects__content {
             width: 300px;
             height: 450px;
-            // background-color: #edf2f4;
             display: flex;
             flex-direction: column;
             align-items: center;
             border-radius: 4px;
-            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            // transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
-            &:hover {
-                box-shadow: 1px 1px 20px rgba(33, 37, 40, 0.3);
-                transform: scale(1.005);
-            }
+            // &:hover {
+            //     box-shadow: 1px 1px 20px rgba(33, 37, 40, 0.3);
+            //     transform: scale(1.005);
+            // }
 
             .Projects__imgContainer {
                 padding: 4px;

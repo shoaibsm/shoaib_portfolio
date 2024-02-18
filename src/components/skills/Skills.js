@@ -26,7 +26,7 @@ function Skills({ isDarkMode }) {
                         <div className="Skills__box">
                             <SiHtml5 className='Skills__icon icon' />
                             <div className="Skills__details">
-                                <h4 className='Skills__nameText' style={{ color: '#212529' }}>HTML</h4>
+                                <h4 className='Skills__nameText'>HTML</h4>
                                 <p className='Skills__descText'>
                                     Proficient in writing semantic and accessible HTML markup.
                                     Experience in creating structured and well-organized document outlines.
@@ -114,9 +114,9 @@ function Skills({ isDarkMode }) {
                             <MdDeveloperBoard className='devProficiency__icon icon' />
                         </div>
                         <div className="devProficiency__descBox">
-                            <h4>Full Stack Web Developer</h4>
-                            <p>End-to-end application development, connecting frontend and backend.</p>
-                            <p>
+                            <h4 className='devProficiency__subHeadingText'>Full Stack Web Developer</h4>
+                            <p className='devProficiency__descText'>End-to-end application development, connecting frontend and backend.</p>
+                            <p className='devProficiency__descText'>
                                 RESTful API integration between frontend and backend components.</p>
                         </div>
                     </div>
@@ -125,8 +125,8 @@ function Skills({ isDarkMode }) {
                             <FaGithub className='devProficiency__icon icon' />
                         </div>
                         <div className="devProficiency__descBox">
-                            <h4>Version Control</h4>
-                            <p>Experience with version control systems like Git for collaborative development. </p>
+                            <h4 className='devProficiency__subHeadingText'>Version Control</h4>
+                            <p className='devProficiency__descText'>Experience with version control systems like Git for collaborative development. </p>
                         </div>
                     </div>
                     <div className="devProficiency__box">
@@ -134,9 +134,9 @@ function Skills({ isDarkMode }) {
                             <FaTools className='devProficiency__icon icon' />
                         </div>
                         <div className="devProficiency__descBox">
-                            <h4>Testing Tool</h4>
-                            <p>Unit testing and integration testing using tools like Jest or Mocha.</p>
-                            <p>
+                            <h4 className='devProficiency__subHeadingText'>Testing Tool</h4>
+                            <p className='devProficiency__descText'>Unit testing and integration testing using tools like Jest or Mocha.</p>
+                            <p className='devProficiency__descText'>
                                 Debugging and troubleshooting skills. </p>
                         </div>
                     </div>
@@ -145,9 +145,9 @@ function Skills({ isDarkMode }) {
                             <AiOutlineDeploymentUnit className='devProficiency__icon icon' />
                         </div>
                         <div className="devProficiency__descBox">
-                            <h4>Deployment</h4>
-                            <p>Deploying applications on platforms like Heroku, AWS, or Azure.</p>
-                            <p>
+                            <h4 className='devProficiency__subHeadingText'>Deployment</h4>
+                            <p className='devProficiency__descText'>Deploying applications on platforms like Heroku, AWS, or Azure.</p>
+                            <p className='devProficiency__descText'>
                                 Knowledge of CI/CD pipelines for automated testing and deployment.
                             </p>
                         </div>
@@ -157,9 +157,9 @@ function Skills({ isDarkMode }) {
                             <MdOutlineSecurity className='devProficiency__icon icon' />
                         </div>
                         <div className="devProficiency__descBox">
-                            <h4>Security</h4>
-                            <p>Implementing secure coding practices and protecting against common web vulnerabilities.</p>
-                            <p>
+                            <h4 className='devProficiency__subHeadingText'>Security</h4>
+                            <p className='devProficiency__descText'>Implementing secure coding practices and protecting against common web vulnerabilities.</p>
+                            <p className='devProficiency__descText'>
                                 Authentication and authorization mechanisms.
                             </p>
                         </div>
@@ -169,9 +169,9 @@ function Skills({ isDarkMode }) {
                             <MdGroups2 className='devProficiency__icon icon' />
                         </div>
                         <div className="devProficiency__descBox">
-                            <h4>Collaboration</h4>
-                            <p>Effective collaboration with cross-functional teams.</p>
-                            <p>
+                            <h4 className='devProficiency__subHeadingText'>Collaboration</h4>
+                            <p className='devProficiency__descText'>Effective collaboration with cross-functional teams.</p>
+                            <p className='devProficiency__descText'>
                                 Agile methodologies and project management.
                             </p>
                         </div>
