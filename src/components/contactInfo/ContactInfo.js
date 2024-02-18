@@ -102,7 +102,7 @@ function ContactInfo() {
                     <p className='ContactInfo__btnText'>Browse CV</p>
                 </a>
             </div>
-            <p className='ContactInfo__gitLinkText'>Explore the source code on GitHub <a href="https://shoaib-sm-resume.onrender.com/" target="_blank" rel="noopener noreferrer">click here</a></p>
+            <p className='ContactInfo__gitLinkText'>Explore the source code on GitHub <a href="https://github.com/shoaibsm/portfilio" target="_blank" rel="noopener noreferrer">click here</a></p>
         </section>
     )
 }
