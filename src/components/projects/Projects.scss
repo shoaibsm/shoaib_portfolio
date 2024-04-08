@@ -24,17 +24,12 @@
 
         .Projects__content {
             width: 300px;
-            height: 450px;
+            height: 400px;
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: space-between;
             border-radius: 4px;
-            // transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-
-            // &:hover {
-            //     box-shadow: 1px 1px 20px rgba(33, 37, 40, 0.3);
-            //     transform: scale(1.005);
-            // }
 
             .Projects__imgContainer {
                 padding: 4px;
@@ -51,10 +46,13 @@
 
             .Projects__desc {
                 margin-top: 8px;
+                padding-left: 16px;
+                align-self: flex-start;
 
                 .Projects__descText {
                     margin-top: 2px;
                     user-select: none;
+                    padding-bottom: 4px;
                 }
             }
 
