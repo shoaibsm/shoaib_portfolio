@@ -3,7 +3,6 @@
     padding-bottom: 30px;
     padding-top: 50px;
 
-
     .Projects__headingText {
         text-align: center;
         letter-spacing: 1px;
@@ -18,9 +17,8 @@
 
     .Projects__container {
         display: flex;
-        justify-content: space-between;
         flex-wrap: wrap;
-        row-gap: 16px;
+        gap: 16px;
 
         .Projects__content {
             width: 300px;
@@ -81,14 +79,10 @@
 
                     }
 
-                    .Projects__link {
-                        text-decoration: none;
-
-                        .Projects__btnText {
-                            font-size: 0.6rem;
-                            color: var(--text-white);
-                            transition: color 0.3s ease-in-out;
-                        }
+                    .Projects__btnText {
+                        font-size: 0.6rem;
+                        color: var(--text-white);
+                        transition: color 0.3s ease-in-out;
                     }
 
                     .link:active,
@@ -103,10 +97,8 @@
                             }
                         }
 
-                        .Projects__link {
-                            p {
-                                color: var(--brand-color);
-                            }
+                        p {
+                            color: var(--brand-color);
                         }
                     }
                 }
