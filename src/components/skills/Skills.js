@@ -134,10 +134,10 @@ function Skills({ isDarkMode }) {
                             <FaTools className='devProficiency__icon icon' />
                         </div>
                         <div className="devProficiency__descBox">
-                            <h4 className='devProficiency__subHeadingText'>Testing Tool</h4>
-                            <p className='devProficiency__descText'>Unit testing and integration testing using tools like Jest or Mocha.</p>
+                            <h4 className='devProficiency__subHeadingText'>Testing and Quality Assurance</h4>
+                            <p className='devProficiency__descText'>Skilled in testing software applications to meet requirements.</p>
                             <p className='devProficiency__descText'>
-                                Debugging and troubleshooting skills. </p>
+                                Skilled in Debugging and troubleshooting. </p>
                         </div>
                     </div>
                     <div className="devProficiency__box">
@@ -146,9 +146,9 @@ function Skills({ isDarkMode }) {
                         </div>
                         <div className="devProficiency__descBox">
                             <h4 className='devProficiency__subHeadingText'>Deployment</h4>
-                            <p className='devProficiency__descText'>Deploying applications on platforms like Heroku, AWS, or Azure.</p>
+                            <p className='devProficiency__descText'>Experienced in deploying applications on platforms like render.com and Netlify.</p>
                             <p className='devProficiency__descText'>
-                                Knowledge of CI/CD pipelines for automated testing and deployment.
+                                Knowledgeable in deploying applications on platforms such as Heroku, AWS, and DigitalOcean.
                             </p>
                         </div>
                     </div>
@@ -172,7 +172,7 @@ function Skills({ isDarkMode }) {
                             <h4 className='devProficiency__subHeadingText'>Collaboration</h4>
                             <p className='devProficiency__descText'>Effective collaboration with cross-functional teams.</p>
                             <p className='devProficiency__descText'>
-                                Agile methodologies and project management.
+                                Proficient in collaborating with diverse teams to achieve project goals.
                             </p>
                         </div>
                     </div>

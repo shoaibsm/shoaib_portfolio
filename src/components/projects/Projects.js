@@ -1,12 +1,12 @@
 import React from 'react'
 import './Projects.scss'
-// import projectImg from '../../assets/project.jpg'
 import authImg from '../../assets/auth.png'
 import crud from '../../assets/crud.png'
 import crypto from '../../assets/crypto.png'
 import npmPkg from '../../assets/npm.png'
 import fetch_dom from '../../assets/fetch and dom.png'
-import { Link } from 'react-router-dom'
+import pdf_download_app from '../../assets/pdf_download_app.png'
+import fiber_network_design from '../../assets/fiber_network_design.png'
 import { IoIosLaptop } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 import { StyledProjects } from '../../styles/GlobalStyles';
@@ -18,6 +18,65 @@ function Projects({ isDarkMode }) {
             <div className='Projects'>
                 <h2 className='Projects__headingText'>Projects</h2>
                 <div className="Projects__container">
+
+                    <div className="Projects__content">
+                        <div className="Projects__imgContainer">
+                            <img className='Projects__img' src={fiber_network_design} alt="PDF Download Project" />
+                        </div>
+                        <div className="Projects__titleBox">
+                            <h4 className='Projects__titleText'>Fiber Network Design</h4>
+                        </div>
+                        <div className="Projects__desc">
+                            <p className="Projects__descText">- Designed fiber network paths using Google Maps API</p>
+                            <p className="Projects__descText">- Implemented interactive polylines and markers</p>
+                            <p className="Projects__descText">- Real-time distance calculation and visualization</p>
+                            <p className="Projects__descText">- Integrated with Redux for state management</p>
+                            <p className="Projects__descText">- Enhanced user experience with dynamic map updates</p>
+                        </div>
+                        <div className="Projects__navigation">
+                            <a href="https://network-app-client.onrender.com" target="_blank" rel="noopener noreferrer" className="Projects__btn--open btn-primary">
+                                <div className="Projects__iconBox">
+                                    <IoIosLaptop className='icon' />
+                                </div>
+                                <p className='Projects__btnText'>Website</p>
+                            </a>
+                            <a href="https://github.com/shoaibsm/fiber_network_design.git" target="_blank" rel="noopener noreferrer" className="Projects__btn--open btn-primary">
+                                <div className="Projects__iconBox">
+                                    <FaGithub className='icon' />
+                                </div>
+                                <p className='Projects__btnText'>Git Code</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="Projects__content">
+                        <div className="Projects__imgContainer">
+                            <img className='Projects__img' src={pdf_download_app} alt="PDF Download Project" />
+                        </div>
+                        <div className="Projects__titleBox">
+                            <h4 className='Projects__titleText'>PDF Download Application</h4>
+                        </div>
+                        <div className="Projects__desc">
+                            <p className="Projects__descText">- Implemented PDF download functionality from Google Drive</p>
+                            <p className="Projects__descText">- Developed user-friendly interface with React</p>
+                            <p className="Projects__descText">- Integrated backend using Express and MongoDB</p>
+                            <p className="Projects__descText">- Enabled email tracking and Excel export</p>
+                            <p className="Projects__descText">- Ensured seamless navigation and download experience</p>
+                        </div>
+                        <div className="Projects__navigation">
+                            <a href="https://smpdfdownload.netlify.app/" target="_blank" rel="noopener noreferrer" className="Projects__btn--open btn-primary">
+                                <div className="Projects__iconBox">
+                                    <IoIosLaptop className='icon' />
+                                </div>
+                                <p className='Projects__btnText'>Website</p>
+                            </a>
+                            <a href="https://github.com/shoaibsm/cablesmith_pdf_downlaod.git" target="_blank" rel="noopener noreferrer" className="Projects__btn--open btn-primary">
+                                <div className="Projects__iconBox">
+                                    <FaGithub className='icon' />
+                                </div>
+                                <p className='Projects__btnText'>Git Code</p>
+                            </a>
+                        </div>
+                    </div>
                     <div className="Projects__content">
                         <div className="Projects__imgContainer">
                             <img className='Projects__img' src={authImg} alt="Authentication" />

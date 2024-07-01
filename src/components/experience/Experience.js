@@ -21,7 +21,7 @@ function Experience({ isDarkMode }) {
                             <div className="Experience__jobTitleIcon">
                                 <BsFillBriefcaseFill className='icon' />
                             </div>
-                            <p className='Experience__jobProfile'>Software Engineer | Jan 2022 - Present</p>
+                            <p className='Experience__jobProfile'>Technical consultant | April 2021 - Present</p>
                         </div>
                         <p className='Experience__jobSummary'>
                             As a Full Stack Developer at Company Name, I played a key role in building robust and scalable web applications using the MERN stack.
@@ -52,7 +52,7 @@ function Experience({ isDarkMode }) {
                             <div className="Experience__jobTitleIcon">
                                 <BsFillBriefcaseFill className='icon' />
                             </div>
-                            <p className='Experience__jobProfile'>Network Design | Sep 2017 - Dec 2021</p>
+                            <p className='Experience__jobProfile'>Network Design | Sep 2017 to Mar 2021</p>
                         </div>
                         <p className='Experience__jobSummary'>
                             As a Network Design Engineer at Micratel Solutions, I played a crucial role as an IBS Engineer, leading the effort to optimize wireless communication systems across diverse structures.
